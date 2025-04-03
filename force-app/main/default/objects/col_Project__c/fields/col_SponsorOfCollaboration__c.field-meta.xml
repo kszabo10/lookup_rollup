@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_SponsorOfCollaboration__c</fullName>
+    <fullName>SponsorOfCollaboration__c</fullName>
     <description>Which entity types sponsors the collaboration</description>
     <inlineHelpText>Who takes the legal responsibility for the initiation, management, and/or financing of the research project?</inlineHelpText>
     <label>Sponsor of Collaboration</label>

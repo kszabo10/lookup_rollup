@@ -2,13 +2,13 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>detailed</fullName>
     <columns>NAME</columns>
-    <columns>col_ChildObjectAPI__c</columns>
-    <columns>col_ChildFieldAPI__c</columns>
-    <columns>col_LookupFieldAPI__c</columns>
-    <columns>col_ParentObjectAPI__c</columns>
-    <columns>col_ParentRollupFieldAPI__c</columns>
-    <columns>col_Operation__c</columns>
-    <columns>col_IsActive__c</columns>
+    <columns>ChildObjectAPI__c</columns>
+    <columns>ChildFieldAPI__c</columns>
+    <columns>LookupFieldAPI__c</columns>
+    <columns>ParentObjectAPI__c</columns>
+    <columns>ParentRollupFieldAPI__c</columns>
+    <columns>Operation__c</columns>
+    <columns>IsActive__c</columns>
     <filterScope>Everything</filterScope>
     <label>detailed</label>
 </ListView>

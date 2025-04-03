@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_OSCAccountID__c</fullName>
+    <fullName>OSCAccountID__c</fullName>
     <description>External ID from Oracle Sales Cloud ID (Shareville ID)</description>
     <encryptionScheme>None</encryptionScheme>
     <externalId>true</externalId>

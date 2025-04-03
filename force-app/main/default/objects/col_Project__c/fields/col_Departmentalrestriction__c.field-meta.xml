@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_Departmentalrestriction__c</fullName>
+    <fullName>Departmentalrestriction__c</fullName>
     <description>Used in Apex Sharing.</description>
     <inlineHelpText>The need-to-know principle is sufficiently covered with the access and permission scheme implemented in Conga Standard CLMA. However, for few highly confidential agreements, a specific additional layer of access restrictions may be needed on departmental level. Please select in case one of the following specific restrictions applies: M&amp;A Department, LC CL Department or Real Estate Department</inlineHelpText>
     <label>Departmental restriction</label>

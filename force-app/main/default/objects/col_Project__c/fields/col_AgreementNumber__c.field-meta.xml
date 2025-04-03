@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_AgreementNumber__c</fullName>
+    <fullName>AgreementNumber__c</fullName>
     <externalId>false</externalId>
-    <formula>col_LinkedAgreement__r.Apttus__FF_Agreement_Number__c</formula>
+    <formula>LinkedAgreement__r.Apttus__FF_Agreement_Number__c</formula>
     <label>Agreement Number</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

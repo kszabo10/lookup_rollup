@@ -10,16 +10,16 @@
 **/
 
 @isTest
-private class col_TriggerHandlerTest {
+private class TriggerHandlerTest {
 
 	private static final String TRIGGER_CONTEXT_ERROR = 'Trigger handler called outside of Trigger execution';
 	private static final String PERMISSIONSET_BYPASSAPEX = 'isBypassApexTrigger';
 
 	private static String lastMethodCalled;
-	private static col_TriggerHandlerTest.TestHandler handler;
+	private static TriggerHandlerTest.TestHandler handler;
 
 	static {
-		handler = new col_TriggerHandlerTest.TestHandler();
+		handler = new TriggerHandlerTest.TestHandler();
 		// Override its internal trigger detection
 		handler.isTriggerExecuting = true;
 	}
@@ -114,7 +114,7 @@ private class col_TriggerHandlerTest {
 				handler.run();
 			Test.StopTest();
 			Assert.fail('The handler ran but should have thrown an error');
-		} catch(col_TriggerHandler.TriggerHandlerException te) {
+		} catch(TriggerHandler.TriggerHandlerException te) {
 			Assert.areEqual(TRIGGER_CONTEXT_ERROR, te.getMessage(), 'the exception message should match');
 		} catch(Exception e) {
 			Assert.fail('the exception thrown was not expected: ' + e.getTypeName() + ': ' + e.getMessage());
@@ -151,7 +151,7 @@ private class col_TriggerHandlerTest {
 	// Test virtual methods	
 	@isTest
 	static void testVirtualMethods() {
-		col_TriggerHandler h = new col_TriggerHandler();
+		TriggerHandler h = new TriggerHandler();
 		h.onBeforeInsert();
 		h.onBeforeUpdate();
 		h.onBeforeDelete();
@@ -227,34 +227,34 @@ private class col_TriggerHandlerTest {
 	}
 
 	// Test implementation of the TriggerHandler
-	private class TestHandler extends col_TriggerHandler {
+	private class TestHandler extends TriggerHandler {
 
 		public override void onBeforeInsert() {
-			col_TriggerHandlerTest.lastMethodCalled = 'beforeInsert';
+			TriggerHandlerTest.lastMethodCalled = 'beforeInsert';
 		}
 
 		public override void  onBeforeUpdate() {
-			col_TriggerHandlerTest.lastMethodCalled = 'beforeUpdate';
+			TriggerHandlerTest.lastMethodCalled = 'beforeUpdate';
 		}
 
 		public override void onBeforeDelete() {
-			col_TriggerHandlerTest.lastMethodCalled = 'beforeDelete';
+			TriggerHandlerTest.lastMethodCalled = 'beforeDelete';
 		}
 
 		public override void onAfterInsert() {
-			col_TriggerHandlerTest.lastMethodCalled = 'afterInsert';
+			TriggerHandlerTest.lastMethodCalled = 'afterInsert';
 		}
 
 		public override void onAfterUpdate() {
-			col_TriggerHandlerTest.lastMethodCalled = 'afterUpdate';
+			TriggerHandlerTest.lastMethodCalled = 'afterUpdate';
 		}
 
 		public override void onAfterDelete() {
-			col_TriggerHandlerTest.lastMethodCalled = 'afterDelete';
+			TriggerHandlerTest.lastMethodCalled = 'afterDelete';
 		}
 
 		public override void onAfterUndelete() {
-			col_TriggerHandlerTest.lastMethodCalled = 'afterUndelete';
+			TriggerHandlerTest.lastMethodCalled = 'afterUndelete';
 		}
 	}
 }

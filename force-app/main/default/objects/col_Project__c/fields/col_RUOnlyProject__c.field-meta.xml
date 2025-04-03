@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_RUOnlyProject__c</fullName>
+    <fullName>RUOnlyProject__c</fullName>
     <defaultValue>false</defaultValue>
     <description>Field to flag projects where HQ is not directly involved (only informed)</description>
     <label>RU Only Project</label>

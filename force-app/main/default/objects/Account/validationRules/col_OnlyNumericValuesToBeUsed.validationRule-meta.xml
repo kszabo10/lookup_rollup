@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_OnlyNumericValuesToBeUsed</fullName>
+    <fullName>OnlyNumericValuesToBeUsed</fullName>
     <active>true</active>
     <description>Ensure that only numeric values are entered in certain text fields (currently used for TIN and OSC Account ID)</description>
     <errorConditionFormula>OR(
     AND(
-        NOT(ISBLANK(col_TIN__c)),
-        NOT(ISNUMBER(col_TIN__c))
+        NOT(ISBLANK(TIN__c)),
+        NOT(ISNUMBER(TIN__c))
     ),
     AND(
-        NOT(ISBLANK(col_OSCAccountID__c)),
-        NOT(ISNUMBER(col_OSCAccountID__c))
+        NOT(ISBLANK(OSCAccountID__c)),
+        NOT(ISNUMBER(OSCAccountID__c))
     )
 )</errorConditionFormula>
     <errorMessage>Please make sure to enter only numbers in the following fields: TIN, OSC Account ID.</errorMessage>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_SHSPIProductLineExpert__c</fullName>
+    <fullName>SHSPIProductLineExpert__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <label>SHS PI / Product Line Expert</label>
     <lookupFilter>
@@ -14,7 +14,7 @@
     </lookupFilter>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Projects (SHS PI / Product Line Expert)</relationshipLabel>
-    <relationshipName>col_Projects3</relationshipName>
+    <relationshipName>Projects3</relationshipName>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

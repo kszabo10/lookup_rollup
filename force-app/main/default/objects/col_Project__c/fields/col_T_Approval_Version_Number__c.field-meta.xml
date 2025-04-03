@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_T_Approval_Version_Number__c</fullName>
+    <fullName>T_Approval_Version_Number__c</fullName>
     <defaultValue>0</defaultValue>
     <description>Technical field. Used to track the actual version of the approval related to this project.</description>
     <externalId>false</externalId>

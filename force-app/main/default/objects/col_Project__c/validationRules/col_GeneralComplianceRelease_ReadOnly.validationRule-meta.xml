@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_GeneralComplianceRelease_ReadOnly</fullName>
+    <fullName>GeneralComplianceRelease_ReadOnly</fullName>
     <active>true</active>
     <description>Once the Compliance Approval is set to &apos;Approved&apos;, the General Compliance Release is read only.</description>
-    <errorConditionFormula>ISPICKVAL(col_ComplianceApproval__c, &quot;Approved&quot;) &amp;&amp;  ISCHANGED( col_GeneralComplianceReleaseapplies__c)</errorConditionFormula>
-    <errorDisplayField>col_GeneralComplianceReleaseapplies__c</errorDisplayField>
+    <errorConditionFormula>ISPICKVAL(ComplianceApproval__c, &quot;Approved&quot;) &amp;&amp;  ISCHANGED( GeneralComplianceReleaseapplies__c)</errorConditionFormula>
+    <errorDisplayField>GeneralComplianceReleaseapplies__c</errorDisplayField>
     <errorMessage>You cannot modify the General Compliance Release applies field once the Compliance Approval is set to &apos;Approved&apos;.</errorMessage>
 </ValidationRule>

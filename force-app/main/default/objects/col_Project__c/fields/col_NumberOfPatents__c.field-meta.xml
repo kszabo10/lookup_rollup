@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_NumberOfPatents__c</fullName>
+    <fullName>NumberOfPatents__c</fullName>
     <label>Number of Patents</label>
     <summaryFilterItems>
-        <field>col_Outcome__c.col_Type__c</field>
+        <field>Outcome__c.Type__c</field>
         <operation>equals</operation>
         <value>Patent</value>
     </summaryFilterItems>
-    <summaryForeignKey>col_Outcome__c.col_Project__c</summaryForeignKey>
+    <summaryForeignKey>Outcome__c.Project__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

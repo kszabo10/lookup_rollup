@@ -7,7 +7,7 @@
  * @description 
  * ===================================================================
 **/
-public class col_LookupWrapper{
+public class LookupWrapper{
     public String parentObjectAPI;
     public String childObjectAPI;
     public String parentRollupFieldAPI;

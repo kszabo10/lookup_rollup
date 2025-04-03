@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_PrimaryOrgUnit__c</fullName>
+    <fullName>PrimaryOrgUnit__c</fullName>
     <description>Driving permissions on the Project level</description>
     <label>Primary Org Unit</label>
     <required>false</required>

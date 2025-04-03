@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_DAMEXCheck__c</fullName>
+    <fullName>DAMEXCheck__c</fullName>
     <description>Field used to document if the DAMEX-check was completed (Export Control)</description>
     <label>DAMEX-Check</label>
     <required>false</required>

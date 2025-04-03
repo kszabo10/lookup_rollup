@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_NumberOfOutcomes__c</fullName>
+    <fullName>NumberOfOutcomes__c</fullName>
     <label>Number of Outcomes</label>
-    <summaryForeignKey>col_Outcome__c.col_Project__c</summaryForeignKey>
+    <summaryForeignKey>Outcome__c.Project__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

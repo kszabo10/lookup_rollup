@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_InitiatingIdea__c</fullName>
+    <fullName>InitiatingIdea__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>If populated, it refers to an Idea created as a Lead record.</description>
     <label>Initiating Idea</label>

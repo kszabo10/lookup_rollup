@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_ParentProject__c</fullName>
+    <fullName>ParentProject__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>If the Project is in a child relationship with a Parent project, it links to the Parent</description>
     <inlineHelpText>The Parent project record reference</inlineHelpText>
     <label>Parent Project</label>
-    <referenceTo>col_Project__c</referenceTo>
+    <referenceTo>Project__c</referenceTo>
     <relationshipLabel>Projects (Parent Project)</relationshipLabel>
     <relationshipName>ChildProjects</relationshipName>
     <required>false</required>

@@ -13,37 +13,37 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>col_ChildObjectAPI__c</field>
+                <field>ChildObjectAPI__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>col_ChildFieldAPI__c</field>
+                <field>ChildFieldAPI__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>col_LookupFieldAPI__c</field>
+                <field>LookupFieldAPI__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>col_Operation__c</field>
+                <field>Operation__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>col_ParentObjectAPI__c</field>
+                <field>ParentObjectAPI__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>col_ParentRollupFieldAPI__c</field>
+                <field>ParentRollupFieldAPI__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_QueryCondition__c</field>
+                <field>QueryCondition__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_IsActive__c</field>
+                <field>IsActive__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

@@ -2,7 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>External</fullName>
     <active>true</active>
-    <compactLayoutAssignment>col_CollApp_Compact_Layout</compactLayoutAssignment>
+    <compactLayoutAssignment>CollApp_Compact_Layout</compactLayoutAssignment>
     <description>CMD Data only - please follow Account process</description>
     <label>External</label>
     <picklistValues>
@@ -4193,7 +4193,7 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>col_VPType__c</picklist>
+        <picklist>VPType__c</picklist>
         <values>
             <fullName>active VP %28commercial only%2C no coll%2E commitment%29</fullName>
             <default>false</default>

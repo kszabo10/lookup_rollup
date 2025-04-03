@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_HasDeliverables__c</fullName>
+    <fullName>HasDeliverables__c</fullName>
     <description>Formulafield with values( EMPTY, 0 and 1):
 
 - 0, when  the Project has the Contract Types: Core Competence Partnership (C2P), Data Privacy (DP), Letter of Intent (LOI), Master Research Agreement (MRA) ,Non Disclosure Agreement (NDA) OR Software Licence (SWLIC).
@@ -11,16 +11,16 @@ With the EMPTY value the Stage Key field shows &quot;Add Deliverables&quot;.</de
     <externalId>false</externalId>
     <formula>IF (
      OR(
-          ISPICKVAL(col_ContractType__c, &quot;C2P&quot;), 
-          ISPICKVAL(col_ContractType__c, &quot;DP&quot;),
-          ISPICKVAL(col_ContractType__c, &quot;LOI&quot;),
-          ISPICKVAL(col_ContractType__c, &quot;MRA&quot;),
-          ISPICKVAL(col_ContractType__c, &quot;NDA&quot;),
-          ISPICKVAL(col_ContractType__c, &quot;SWLIC&quot;)
+          ISPICKVAL(ContractType__c, &quot;C2P&quot;), 
+          ISPICKVAL(ContractType__c, &quot;DP&quot;),
+          ISPICKVAL(ContractType__c, &quot;LOI&quot;),
+          ISPICKVAL(ContractType__c, &quot;MRA&quot;),
+          ISPICKVAL(ContractType__c, &quot;NDA&quot;),
+          ISPICKVAL(ContractType__c, &quot;SWLIC&quot;)
         ),
       0,
       IF( 
-          col_NumberOfDeliverables__c &gt; 0, 
+          NumberOfDeliverables__c &gt; 0, 
           1, 
           NULL
         )

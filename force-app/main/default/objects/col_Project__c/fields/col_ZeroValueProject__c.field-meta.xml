@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_ZeroValueProject__c</fullName>
+    <fullName>ZeroValueProject__c</fullName>
     <defaultValue>false</defaultValue>
     <description>Project without budget. Project Approval optional.</description>
     <inlineHelpText>Please check this box, if your Project is a zero value project. The Project Approval could be optional.</inlineHelpText>

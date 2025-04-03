@@ -8,7 +8,7 @@
  * @description 
  * ===================================================================
 **/
-public virtual class col_TriggerHandler {
+public virtual class TriggerHandler {
 
     // The current context of the trigger, overridable in tests
     @TestVisible
@@ -19,7 +19,7 @@ public virtual class col_TriggerHandler {
     private Boolean isTriggerExecuting;
       
     // Constructor
-    public col_TriggerHandler() {
+    public TriggerHandler() {
 		this.setTriggerContext();
     }
 

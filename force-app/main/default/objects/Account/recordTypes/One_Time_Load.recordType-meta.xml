@@ -4303,7 +4303,7 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>col_VPType__c</picklist>
+        <picklist>VPType__c</picklist>
         <values>
             <fullName>active VP %28commercial only%2C no coll%2E commitment%29</fullName>
             <default>false</default>

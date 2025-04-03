@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_WasRunning__c</fullName>
+    <fullName>WasRunning__c</fullName>
     <defaultValue>false</defaultValue>
     <description>Hidden Checkbox field, True when Project was in Stage Running at least once.</description>
     <label>WasRunning</label>

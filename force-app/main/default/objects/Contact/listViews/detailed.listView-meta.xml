@@ -6,13 +6,13 @@
     <columns>CONTACT.FIRST_NAME</columns>
     <columns>ACCOUNT.NAME</columns>
     <columns>CONTACT.EMAIL</columns>
-    <columns>col_AreaOfResponsibility__c</columns>
-    <columns>col_Role__c</columns>
-    <columns>col_OrgRegion__c</columns>
-    <columns>col_OrgZone__c</columns>
-    <columns>col_Country__c</columns>
-    <columns>col_PrimaryOrgUnit__c</columns>
-    <columns>col_SecondaryOrgUnit__c</columns>
+    <columns>AreaOfResponsibility__c</columns>
+    <columns>Role__c</columns>
+    <columns>OrgRegion__c</columns>
+    <columns>OrgZone__c</columns>
+    <columns>Country__c</columns>
+    <columns>PrimaryOrgUnit__c</columns>
+    <columns>SecondaryOrgUnit__c</columns>
     <filterScope>Everything</filterScope>
     <label>detailed</label>
 </ListView>

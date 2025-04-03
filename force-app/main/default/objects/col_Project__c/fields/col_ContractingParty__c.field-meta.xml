@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_ContractingParty__c</fullName>
+    <fullName>ContractingParty__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>The external collaboration partner whom Siemens contracts with.</description>
     <inlineHelpText>An Account is selectable if it is External Account, its Status is &quot;Active&quot; and its Type is &quot;CMD&quot;</inlineHelpText>

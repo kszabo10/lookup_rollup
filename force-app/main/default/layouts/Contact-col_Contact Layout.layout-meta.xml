@@ -33,63 +33,63 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_ExternalId__c</field>
+                <field>ExternalId__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_LinkedUser__c</field>
+                <field>LinkedUser__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_Role__c</field>
+                <field>Role__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_AreaOfResponsibility__c</field>
+                <field>AreaOfResponsibility__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>col_Department__c</field>
+                <field>Department__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_NPI__c</field>
+                <field>NPI__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_AdditionalInformation__c</field>
+                <field>AdditionalInformation__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_JobTitle__c</field>
+                <field>JobTitle__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_RegionalKOL__c</field>
+                <field>RegionalKOL__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_LicenseNumber__c</field>
+                <field>LicenseNumber__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_CorporateKOL__c</field>
+                <field>CorporateKOL__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_OrgZone__c</field>
+                <field>OrgZone__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_OrgRegion__c</field>
+                <field>OrgRegion__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_Specialty__c</field>
+                <field>Specialty__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_StateProvinceOfIssuance__c</field>
+                <field>StateProvinceOfIssuance__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -125,15 +125,15 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_PrimaryOrgUnit__c</field>
+                <field>PrimaryOrgUnit__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_SecondaryOrgUnit__c</field>
+                <field>SecondaryOrgUnit__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>col_Country__c</field>
+                <field>Country__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -323,11 +323,11 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>col_Approval__c.col_PrincipalInvestigator__c</relatedList>
+        <relatedList>Approval__c.PrincipalInvestigator__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>col_Project__c.col_CPContractOwner__c</relatedList>
+        <relatedList>Project__c.CPContractOwner__c</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>

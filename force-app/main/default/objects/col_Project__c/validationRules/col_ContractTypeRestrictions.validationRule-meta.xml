@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_ContractTypeRestrictions</fullName>
+    <fullName>ContractTypeRestrictions</fullName>
     <active>true</active>
     <description>After the Project Approval Stage and in the case, that the Project approval was not required because of an specific contract type it should not be allowed to change the Contract Type to a value which requires a Project Approval.</description>
     <errorConditionFormula>AND (
-      NOT( ISPICKVAL(col_StageName__c, &quot;InDefinition&quot;)),
-      NOT( ISPICKVAL(col_StageName__c, &quot;ProjectApproval&quot;)),
-      ISCHANGED(col_ContractType__c),
-      NOT( ISPICKVAL(col_ProjectApproval__c, &quot;Approved&quot;)),
+      NOT( ISPICKVAL(StageName__c, &quot;InDefinition&quot;)),
+      NOT( ISPICKVAL(StageName__c, &quot;ProjectApproval&quot;)),
+      ISCHANGED(ContractType__c),
+      NOT( ISPICKVAL(ProjectApproval__c, &quot;Approved&quot;)),
       NOT (
             OR(
-                ISPICKVAL(col_ContractType__c, &quot;C2P&quot;),
-                ISPICKVAL(col_ContractType__c, &quot;DP&quot;),
-                ISPICKVAL(col_ContractType__c, &quot;LOI&quot;),
-                ISPICKVAL(col_ContractType__c, &quot;MRA&quot;),
-                ISPICKVAL(col_ContractType__c, &quot;NDA&quot;),
-                ISPICKVAL(col_ContractType__c, &quot;SWLIC&quot;)
+                ISPICKVAL(ContractType__c, &quot;C2P&quot;),
+                ISPICKVAL(ContractType__c, &quot;DP&quot;),
+                ISPICKVAL(ContractType__c, &quot;LOI&quot;),
+                ISPICKVAL(ContractType__c, &quot;MRA&quot;),
+                ISPICKVAL(ContractType__c, &quot;NDA&quot;),
+                ISPICKVAL(ContractType__c, &quot;SWLIC&quot;)
                )
         )
   )</errorConditionFormula>
-    <errorDisplayField>col_ContractType__c</errorDisplayField>
+    <errorDisplayField>ContractType__c</errorDisplayField>
     <errorMessage>You attempted to change the Contract Type to a value that requires Project Approval. Please return to the Project Approval Stage and make this change there.</errorMessage>
 </ValidationRule>

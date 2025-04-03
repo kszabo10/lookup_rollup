@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_HQCollaborationManager__c</fullName>
+    <fullName>HQCollaborationManager__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>This fields defines who is assigned as HQ Collaboration Manager for a given CollApp project</description>
     <label>HQ Collaboration Manager</label>
@@ -12,7 +12,7 @@
             <value>Internal</value>
         </filterItems>
         <filterItems>
-            <field>Contact.col_LinkedUser__c</field>
+            <field>Contact.LinkedUser__c</field>
             <operation>notEqual</operation>
             <value></value>
         </filterItems>
@@ -20,7 +20,7 @@
     </lookupFilter>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Projects (HQ Collaboration Manager)</relationshipLabel>
-    <relationshipName>col_Projects</relationshipName>
+    <relationshipName>Projects</relationshipName>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>

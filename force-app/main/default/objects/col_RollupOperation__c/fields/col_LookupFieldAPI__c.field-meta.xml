@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_LookupFieldAPI__c</fullName>
+    <fullName>LookupFieldAPI__c</fullName>
     <description>The child object&apos;s lookup field name.</description>
     <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>

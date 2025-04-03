@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_TotalPartnerDelValue__c</fullName>
+    <fullName>TotalPartnerDelValue__c</fullName>
     <description>The summarised value of what the partner brings in. This will be invoiced by the partner towards SHS.</description>
     <inlineHelpText>The summarised currency value of the Partner&apos;s Deliverables.</inlineHelpText>
     <label>Total Partner Deliverable Value</label>
-    <summarizedField>col_ProjectLineItem__c.col_PartnerDeliverableValue__c</summarizedField>
-    <summaryForeignKey>col_ProjectLineItem__c.col_Project__c</summaryForeignKey>
+    <summarizedField>ProjectLineItem__c.PartnerDeliverableValue__c</summarizedField>
+    <summaryForeignKey>ProjectLineItem__c.Project__c</summaryForeignKey>
     <summaryOperation>sum</summaryOperation>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

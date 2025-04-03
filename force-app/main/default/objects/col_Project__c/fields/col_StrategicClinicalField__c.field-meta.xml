@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_StrategicClinicalField__c</fullName>
+    <fullName>StrategicClinicalField__c</fullName>
     <description>Indicates the strategic/clinical field of the project</description>
     <inlineHelpText>ClC = Clinical Conditions</inlineHelpText>
     <label>Strategic/Clinical Field</label>
@@ -11,7 +11,7 @@
     <type>MultiselectPicklist</type>
     <valueSet>
         <restricted>true</restricted>
-        <valueSetName>col_StrategicClinicalField</valueSetName>
+        <valueSetName>StrategicClinicalField</valueSetName>
     </valueSet>
     <visibleLines>4</visibleLines>
 </CustomField>

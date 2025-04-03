@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_WhoProposedCollaboration__c</fullName>
+    <fullName>WhoProposedCollaboration__c</fullName>
     <description>Who has originally proposed the Collaboration project</description>
     <inlineHelpText>Who has originally proposed the Collaboration project?</inlineHelpText>
     <label>Who Proposed Collaboration?</label>

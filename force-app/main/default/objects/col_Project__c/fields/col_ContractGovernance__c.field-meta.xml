@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_ContractGovernance__c</fullName>
-    <description>Defines the Contract governance based on the Contract Type values. Its possible CollApp-specific values are defined in the col_ProjectContracting__mdt Custom Metadata records.</description>
+    <fullName>ContractGovernance__c</fullName>
+    <description>Defines the Contract governance based on the Contract Type values. Its possible CollApp-specific values are defined in the ProjectContracting__mdt Custom Metadata records.</description>
     <label>Contract Governance</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
@@ -9,9 +9,9 @@
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <controllingField>col_ContractType__c</controllingField>
+        <controllingField>ContractType__c</controllingField>
         <restricted>true</restricted>
-        <valueSetName>col_ContractGovernance</valueSetName>
+        <valueSetName>ContractGovernance</valueSetName>
         <valueSettings>
             <controllingFieldValue>SA</controllingFieldValue>
             <controllingFieldValue>PRF</controllingFieldValue>

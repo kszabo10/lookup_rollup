@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_VPCollEngagementManager__c</fullName>
+    <fullName>VPCollEngagementManager__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <inlineHelpText>Value Partnership Collaboration Engagement Manager</inlineHelpText>
     <label>VP Collaboration Engagement Manager</label>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_LastAgreement__c</fullName>
+    <fullName>LastAgreement__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>Looks up to the last CLMA Amendment record. always updated once a new Amendment is created from the same project.</description>
     <inlineHelpText>The last generated Amendment Agreement, if there is any.</inlineHelpText>

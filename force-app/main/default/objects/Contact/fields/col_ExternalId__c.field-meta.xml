@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_ExternalId__c</fullName>
+    <fullName>ExternalId__c</fullName>
     <caseSensitive>true</caseSensitive>
     <description>Technical field to ease data management.</description>
     <encryptionScheme>None</encryptionScheme>

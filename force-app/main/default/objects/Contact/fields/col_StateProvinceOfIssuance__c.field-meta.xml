@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_StateProvinceOfIssuance__c</fullName>
+    <fullName>StateProvinceOfIssuance__c</fullName>
     <description>Used in CollApp for external contacts</description>
     <label>State/Province of Issuance</label>
     <required>false</required>

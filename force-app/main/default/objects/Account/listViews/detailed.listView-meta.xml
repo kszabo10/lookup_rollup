@@ -4,7 +4,7 @@
     <columns>ACCOUNT.NAME</columns>
     <columns>PARENT_NAME</columns>
     <columns>SHS_Record_Type_Name__c</columns>
-    <columns>col_TotalBudget__c</columns>
+    <columns>TotalBudget__c</columns>
     <filterScope>Everything</filterScope>
     <label>detailed</label>
 </ListView>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_AmendmentVersion__c</fullName>
+    <fullName>AmendmentVersion__c</fullName>
     <description>This field contains the current version of the Amendment.</description>
     <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>

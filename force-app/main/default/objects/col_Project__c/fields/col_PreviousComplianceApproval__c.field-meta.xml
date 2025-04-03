@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_PreviousComplianceApproval__c</fullName>
+    <fullName>PreviousComplianceApproval__c</fullName>
     <description>Hidden field for consistent Amendment handling.</description>
     <encryptionScheme>None</encryptionScheme>
     <externalId>false</externalId>

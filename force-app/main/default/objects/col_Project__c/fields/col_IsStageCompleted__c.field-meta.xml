@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_IsStageCompleted__c</fullName>
+    <fullName>IsStageCompleted__c</fullName>
     <defaultValue>false</defaultValue>
     <description>True of all Stage fields required for this Stage and ALL previous Stages are populated. The Project can only move forward of this field is true. The field is set by Apex after each insert and update, based on the ProjectStageFields__mdt custom metadata type records.</description>
     <label>Is Stage Completed</label>

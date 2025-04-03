@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_XBLProject__c</fullName>
+    <fullName>XBLProject__c</fullName>
     <defaultValue>false</defaultValue>
     <description>Field to flag projects that are managed across different Business Lines</description>
     <label>X-BL Project</label>

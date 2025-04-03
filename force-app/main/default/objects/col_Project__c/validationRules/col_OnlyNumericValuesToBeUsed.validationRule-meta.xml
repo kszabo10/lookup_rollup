@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_OnlyNumericValuesToBeUsed</fullName>
+    <fullName>OnlyNumericValuesToBeUsed</fullName>
     <active>true</active>
     <description>Ensure that only numeric values are entered in certain text fields (currently used for only PO Number)</description>
     <errorConditionFormula>AND(
-    NOT(ISBLANK(col_PONumber__c)),
-    NOT(ISNUMBER(col_PONumber__c))
+    NOT(ISBLANK(PONumber__c)),
+    NOT(ISNUMBER(PONumber__c))
 )</errorConditionFormula>
-    <errorDisplayField>col_PONumber__c</errorDisplayField>
+    <errorDisplayField>PONumber__c</errorDisplayField>
     <errorMessage>Please make sure to enter only numbers in this field</errorMessage>
 </ValidationRule>

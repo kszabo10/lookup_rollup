@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_CompactLayout</fullName>
+    <fullName>CompactLayout</fullName>
     <fields>Name</fields>
-    <fields>col_ContractingParty__c</fields>
-    <fields>col_TotalAgreementValue__c</fields>
-    <fields>col_ContractType__c</fields>
-    <fields>col_AmendmentStatus__c</fields>
+    <fields>ContractingParty__c</fields>
+    <fields>TotalAgreementValue__c</fields>
+    <fields>ContractType__c</fields>
+    <fields>AmendmentStatus__c</fields>
     <label>CollApp Compact Layout</label>
 </CompactLayout>

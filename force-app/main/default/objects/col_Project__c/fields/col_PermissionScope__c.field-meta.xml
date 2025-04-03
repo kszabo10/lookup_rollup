@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_PermissionScope__c</fullName>
+    <fullName>PermissionScope__c</fullName>
     <description>Can be corresponding to the Permission Scope field on the Agreement object. 
 A classification which represents the general or primary business purpose for various types of contracts with the goal to establish access keys in CLMA assigned to contracts and user groups, while also limiting the access on a need-to- know basis, based on the associated business engagement.</description>
     <label>Permission Scope</label>

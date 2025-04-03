@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_FirstProjectWithPartner__c</fullName>
+    <fullName>FirstProjectWithPartner__c</fullName>
     <defaultValue>false</defaultValue>
     <description>check box whether this is the very first project conducted with this collaboration partner</description>
     <inlineHelpText>Please check this box, if this is the very first project conducted with this collaboration partner</inlineHelpText>

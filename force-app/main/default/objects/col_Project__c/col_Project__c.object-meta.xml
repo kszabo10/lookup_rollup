@@ -131,7 +131,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>col_Project_RecordPage</content>
+        <content>Project_RecordPage</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -139,7 +139,7 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>col_Project_RecordPage</content>
+        <content>Project_RecordPage</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -149,7 +149,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>col_CompactLayout</compactLayoutAssignment>
+    <compactLayoutAssignment>CompactLayout</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Represents an SHS Research and Development Project.</description>
     <enableActivities>true</enableActivities>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>col_ComplianceApproval__c</fullName>
+    <fullName>ComplianceApproval__c</fullName>
     <description>Maintains the status of the possible Compliance Approval</description>
     <label>Compliance Approval</label>
     <required>false</required>
@@ -10,6 +10,6 @@
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
-        <valueSetName>col_ApprovalStatus</valueSetName>
+        <valueSetName>ApprovalStatus</valueSetName>
     </valueSet>
 </CustomField>
