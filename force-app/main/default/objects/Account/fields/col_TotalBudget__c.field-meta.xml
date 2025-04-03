@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_TotalBudget__c</fullName>
+    <defaultValue>0</defaultValue>
+    <inlineHelpText>Roll-up summary from the related Collaboration Projects&apos; Budget field if the Project record&apos;s Stage value is one of the &quot;Running&quot;, &quot;Ic Cloing&quot;, &quot;Closed&quot; values.</inlineHelpText>
+    <label>Total Budget</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

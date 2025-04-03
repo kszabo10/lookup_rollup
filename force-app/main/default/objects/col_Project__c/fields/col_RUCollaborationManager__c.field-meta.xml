@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_RUCollaborationManager__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This fields defines who is assigned as RU Collaboration Manager for a given CollApp project</description>
+    <label>RU Collaboration Manager</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Contact.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Internal</value>
+        </filterItems>
+        <filterItems>
+            <field>Contact.col_LinkedUser__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Projects (RU Collaboration Manager)</relationshipLabel>
+    <relationshipName>col_Projects2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

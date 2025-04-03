@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SHS_Government_classification__c</fullName>
+    <label>Government Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Federal</fullName>
+                <default>false</default>
+                <label>Federal</label>
+            </value>
+            <value>
+                <fullName>City</fullName>
+                <default>false</default>
+                <label>City</label>
+            </value>
+            <value>
+                <fullName>County</fullName>
+                <default>false</default>
+                <label>County</label>
+            </value>
+            <value>
+                <fullName>State or Province</fullName>
+                <default>false</default>
+                <label>State or Province</label>
+            </value>
+            <value>
+                <fullName>City/County</fullName>
+                <default>false</default>
+                <label>City/County</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Legacy 11</fullName>
+                <default>false</default>
+                <label>Legacy 11</label>
+            </value>
+            <value>
+                <fullName>Legacy 21</fullName>
+                <default>false</default>
+                <label>Legacy 21</label>
+            </value>
+            <value>
+                <fullName>Legacy 23</fullName>
+                <default>false</default>
+                <label>Legacy 23</label>
+            </value>
+            <value>
+                <fullName>Legacy 24</fullName>
+                <default>false</default>
+                <label>Legacy 24</label>
+            </value>
+            <value>
+                <fullName>Legacy 27</fullName>
+                <default>false</default>
+                <label>Legacy 27</label>
+            </value>
+            <value>
+                <fullName>Legacy 32</fullName>
+                <default>false</default>
+                <label>Legacy 32</label>
+            </value>
+            <value>
+                <fullName>Legacy 33</fullName>
+                <default>false</default>
+                <label>Legacy 33</label>
+            </value>
+            <value>
+                <fullName>Legacy 35</fullName>
+                <default>false</default>
+                <label>Legacy 35</label>
+            </value>
+            <value>
+                <fullName>Legacy 36</fullName>
+                <default>false</default>
+                <label>Legacy 36</label>
+            </value>
+            <value>
+                <fullName>Legacy 39</fullName>
+                <default>false</default>
+                <label>Legacy 39</label>
+            </value>
+            <value>
+                <fullName>Legacy 50</fullName>
+                <default>false</default>
+                <label>Legacy 50</label>
+            </value>
+            <value>
+                <fullName>Legacy 51</fullName>
+                <default>false</default>
+                <label>Legacy 51</label>
+            </value>
+            <value>
+                <fullName>Legacy 52</fullName>
+                <default>false</default>
+                <label>Legacy 52</label>
+            </value>
+            <value>
+                <fullName>Legacy 81</fullName>
+                <default>false</default>
+                <label>Legacy 81</label>
+            </value>
+            <value>
+                <fullName>Legacy 82</fullName>
+                <default>false</default>
+                <label>Legacy 82</label>
+            </value>
+            <value>
+                <fullName>Legacy 88</fullName>
+                <default>false</default>
+                <label>Legacy 88</label>
+            </value>
+            <value>
+                <fullName>Legacy NG</fullName>
+                <default>false</default>
+                <label>Legacy NG</label>
+            </value>
+            <value>
+                <fullName>Legacy NF</fullName>
+                <default>false</default>
+                <label>Legacy NF</label>
+            </value>
+            <value>
+                <fullName>Legacy AE</fullName>
+                <default>false</default>
+                <label>Legacy AE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

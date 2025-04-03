@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SHS_Account_Notes__c</fullName>
+    <description>Free text field for users to add some comments about the account which may provide additional context, branding and/or local account details, as well as historical background.  This field is non-reportable and is subject to being overwritten by other users.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>This non-reportable field is intended to offer users with the ability to type in notes to add some comments about the account which may provide additional context, branding and/or local account details, as well as historical background.  This field is subject to being overwritten by other users.</inlineHelpText>
+    <label>Account Notes</label>
+    <length>2000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

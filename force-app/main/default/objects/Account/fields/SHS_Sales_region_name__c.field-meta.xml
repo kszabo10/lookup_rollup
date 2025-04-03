@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SHS_Sales_region_name__c</fullName>
+    <label>Sales Region Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SHS_Sales_dist_0100__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Northeast Zone</fullName>
+                <default>false</default>
+                <label>Northeast Zone</label>
+            </value>
+            <value>
+                <fullName>Boston</fullName>
+                <default>false</default>
+                <label>Boston</label>
+            </value>
+            <value>
+                <fullName>Philadelphia Old</fullName>
+                <default>false</default>
+                <label>Philadelphia Old</label>
+            </value>
+            <value>
+                <fullName>EM East Old</fullName>
+                <default>false</default>
+                <label>EM East Old</label>
+            </value>
+            <value>
+                <fullName>Boston Old</fullName>
+                <default>false</default>
+                <label>Boston Old</label>
+            </value>
+            <value>
+                <fullName>HS Eastern PA Old</fullName>
+                <default>false</default>
+                <label>HS Eastern PA Old</label>
+            </value>
+            <value>
+                <fullName>New York Metro</fullName>
+                <default>false</default>
+                <label>New York Metro</label>
+            </value>
+            <value>
+                <fullName>Upstate NY / NJ</fullName>
+                <default>false</default>
+                <label>Upstate NY / NJ</label>
+            </value>
+            <value>
+                <fullName>Southeast Zone</fullName>
+                <default>false</default>
+                <label>Southeast Zone</label>
+            </value>
+            <value>
+                <fullName>SE Coastal HS</fullName>
+                <default>false</default>
+                <label>SE Coastal HS</label>
+            </value>
+            <value>
+                <fullName>Carolinas Old</fullName>
+                <default>false</default>
+                <label>Carolinas Old</label>
+            </value>
+            <value>
+                <fullName>Atlanta Old</fullName>
+                <default>false</default>
+                <label>Atlanta Old</label>
+            </value>
+            <value>
+                <fullName>Florida Old</fullName>
+                <default>false</default>
+                <label>Florida Old</label>
+            </value>
+            <value>
+                <fullName>Med Lab</fullName>
+                <default>false</default>
+                <label>Med Lab</label>
+            </value>
+            <value>
+                <fullName>Piedmont</fullName>
+                <default>false</default>
+                <label>Piedmont</label>
+            </value>
+            <value>
+                <fullName>Washington DC</fullName>
+                <default>false</default>
+                <label>Washington DC</label>
+            </value>
+            <value>
+                <fullName>Chesapeake HS</fullName>
+                <default>false</default>
+                <label>Chesapeake HS</label>
+            </value>
+            <value>
+                <fullName>Heartland HS</fullName>
+                <default>false</default>
+                <label>Heartland HS</label>
+            </value>
+            <value>
+                <fullName>Central Zone</fullName>
+                <default>false</default>
+                <label>Central Zone</label>
+            </value>
+            <value>
+                <fullName>Washington DC Old</fullName>
+                <default>false</default>
+                <label>Washington DC Old</label>
+            </value>
+            <value>
+                <fullName>Detroit Old</fullName>
+                <default>false</default>
+                <label>Detroit Old</label>
+            </value>
+            <value>
+                <fullName>Pittsburgh Old</fullName>
+                <default>false</default>
+                <label>Pittsburgh Old</label>
+            </value>
+            <value>
+                <fullName>Columbus Old</fullName>
+                <default>false</default>
+                <label>Columbus Old</label>
+            </value>
+            <value>
+                <fullName>Nashville Old</fullName>
+                <default>false</default>
+                <label>Nashville Old</label>
+            </value>
+            <value>
+                <fullName>Chicago</fullName>
+                <default>false</default>
+                <label>Chicago</label>
+            </value>
+            <value>
+                <fullName>Great Lakes HS</fullName>
+                <default>false</default>
+                <label>Great Lakes HS</label>
+            </value>
+            <value>
+                <fullName>Keystone Old</fullName>
+                <default>false</default>
+                <label>Keystone Old</label>
+            </value>
+            <value>
+                <fullName>Allegheny Valley HS</fullName>
+                <default>false</default>
+                <label>Allegheny Valley HS</label>
+            </value>
+            <value>
+                <fullName>Midwest Zone</fullName>
+                <default>false</default>
+                <label>Midwest Zone</label>
+            </value>
+            <value>
+                <fullName>Cassling</fullName>
+                <default>false</default>
+                <label>Cassling</label>
+            </value>
+            <value>
+                <fullName>Chicago Old</fullName>
+                <default>false</default>
+                <label>Chicago Old</label>
+            </value>
+            <value>
+                <fullName>St. Louis Old</fullName>
+                <default>false</default>
+                <label>St. Louis Old</label>
+            </value>
+            <value>
+                <fullName>Minneapolis Old</fullName>
+                <default>false</default>
+                <label>Minneapolis Old</label>
+            </value>
+            <value>
+                <fullName>Dallas HS</fullName>
+                <default>false</default>
+                <label>Dallas HS</label>
+            </value>
+            <value>
+                <fullName>St. Louis</fullName>
+                <default>false</default>
+                <label>St. Louis</label>
+            </value>
+            <value>
+                <fullName>New Orleans Old</fullName>
+                <default>false</default>
+                <label>New Orleans Old</label>
+            </value>
+            <value>
+                <fullName>SW Gulf old</fullName>
+                <default>false</default>
+                <label>SW Gulf old</label>
+            </value>
+            <value>
+                <fullName>Florida</fullName>
+                <default>false</default>
+                <label>Florida</label>
+            </value>
+            <value>
+                <fullName>Western Zone</fullName>
+                <default>false</default>
+                <label>Western Zone</label>
+            </value>
+            <value>
+                <fullName>EM West Old</fullName>
+                <default>false</default>
+                <label>EM West Old</label>
+            </value>
+            <value>
+                <fullName>Denver</fullName>
+                <default>false</default>
+                <label>Denver</label>
+            </value>
+            <value>
+                <fullName>Dallas Old</fullName>
+                <default>false</default>
+                <label>Dallas Old</label>
+            </value>
+            <value>
+                <fullName>Los Angeles</fullName>
+                <default>false</default>
+                <label>Los Angeles</label>
+            </value>
+            <value>
+                <fullName>Houston Old</fullName>
+                <default>false</default>
+                <label>Houston Old</label>
+            </value>
+            <value>
+                <fullName>San Francisco</fullName>
+                <default>false</default>
+                <label>San Francisco</label>
+            </value>
+            <value>
+                <fullName>Seattle</fullName>
+                <default>false</default>
+                <label>Seattle</label>
+            </value>
+            <value>
+                <fullName>Mid South</fullName>
+                <default>false</default>
+                <label>Mid South</label>
+            </value>
+            <value>
+                <fullName>South Texas</fullName>
+                <default>false</default>
+                <label>South Texas</label>
+            </value>
+            <value>
+                <fullName>Los Angeles Old</fullName>
+                <default>false</default>
+                <label>Los Angeles Old</label>
+            </value>
+            <value>
+                <fullName>Seattle Old</fullName>
+                <default>false</default>
+                <label>Seattle Old</label>
+            </value>
+            <value>
+                <fullName>San Diego Old</fullName>
+                <default>false</default>
+                <label>San Diego Old</label>
+            </value>
+            <value>
+                <fullName>San Francisco Old</fullName>
+                <default>false</default>
+                <label>San Francisco Old</label>
+            </value>
+            <value>
+                <fullName>Denver Old</fullName>
+                <default>false</default>
+                <label>Denver Old</label>
+            </value>
+            <value>
+                <fullName>Philadelphia HS</fullName>
+                <default>false</default>
+                <label>Philadelphia HS</label>
+            </value>
+            <value>
+                <fullName>Atlanta</fullName>
+                <default>false</default>
+                <label>Atlanta</label>
+            </value>
+            <value>
+                <fullName>Great Lakes</fullName>
+                <default>false</default>
+                <label>Great Lakes</label>
+            </value>
+            <value>
+                <fullName>Ohio Valley</fullName>
+                <default>false</default>
+                <label>Ohio Valley</label>
+            </value>
+            <value>
+                <fullName>Keystone</fullName>
+                <default>false</default>
+                <label>Keystone</label>
+            </value>
+            <value>
+                <fullName>DISS</fullName>
+                <default>false</default>
+                <label>DISS</label>
+            </value>
+            <value>
+                <fullName>Dallas</fullName>
+                <default>false</default>
+                <label>Dallas</label>
+            </value>
+            <value>
+                <fullName>Alt Ch Northeast Old</fullName>
+                <default>false</default>
+                <label>Alt Ch Northeast Old</label>
+            </value>
+            <value>
+                <fullName>Alt Ch Southeast Old</fullName>
+                <default>false</default>
+                <label>Alt Ch Southeast Old</label>
+            </value>
+            <value>
+                <fullName>Alt Ch Central Old</fullName>
+                <default>false</default>
+                <label>Alt Ch Central Old</label>
+            </value>
+            <value>
+                <fullName>Alt Ch Midwest Old</fullName>
+                <default>false</default>
+                <label>Alt Ch Midwest Old</label>
+            </value>
+            <value>
+                <fullName>Med Lab Old</fullName>
+                <default>false</default>
+                <label>Med Lab Old</label>
+            </value>
+            <value>
+                <fullName>Cassling Old</fullName>
+                <default>false</default>
+                <label>Cassling Old</label>
+            </value>
+            <value>
+                <fullName>Alt Ch Western Old</fullName>
+                <default>false</default>
+                <label>Alt Ch Western Old</label>
+            </value>
+            <value>
+                <fullName>Alt Chan Western Old</fullName>
+                <default>false</default>
+                <label>Alt Chan Western Old</label>
+            </value>
+            <value>
+                <fullName>Alt Chan Sthwest Old</fullName>
+                <default>false</default>
+                <label>Alt Chan Sthwest Old</label>
+            </value>
+            <value>
+                <fullName>Alt Chan Mdwest Old</fullName>
+                <default>false</default>
+                <label>Alt Chan Mdwest Old</label>
+            </value>
+            <value>
+                <fullName>Alt Chan Stheast Old</fullName>
+                <default>false</default>
+                <label>Alt Chan Stheast Old</label>
+            </value>
+            <value>
+                <fullName>Alt Chan MdAttic Old</fullName>
+                <default>false</default>
+                <label>Alt Chan MdAttic Old</label>
+            </value>
+            <value>
+                <fullName>Alt Chan Central Old</fullName>
+                <default>false</default>
+                <label>Alt Chan Central Old</label>
+            </value>
+            <value>
+                <fullName>Alt Chan Eastern Old</fullName>
+                <default>false</default>
+                <label>Alt Chan Eastern Old</label>
+            </value>
+            <value>
+                <fullName>Alt Chan Ntheast Old</fullName>
+                <default>false</default>
+                <label>Alt Chan Ntheast Old</label>
+            </value>
+            <value>
+                <fullName>Alt Chan Sonocur Old</fullName>
+                <default>false</default>
+                <label>Alt Chan Sonocur Old</label>
+            </value>
+            <value>
+                <fullName>Southeast HS</fullName>
+                <default>false</default>
+                <label>Southeast HS</label>
+            </value>
+            <value>
+                <fullName>HS HQ Old</fullName>
+                <default>false</default>
+                <label>HS HQ Old</label>
+            </value>
+            <value>
+                <fullName>CRC Old</fullName>
+                <default>false</default>
+                <label>CRC Old</label>
+            </value>
+            <value>
+                <fullName>HDX Old</fullName>
+                <default>false</default>
+                <label>HDX Old</label>
+            </value>
+            <value>
+                <fullName>NHS Old</fullName>
+                <default>false</default>
+                <label>NHS Old</label>
+            </value>
+            <value>
+                <fullName>Northern Lakes</fullName>
+                <default>false</default>
+                <label>Northern Lakes</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>Intl Primary Region</fullName>
+                <default>false</default>
+                <label>Intl Primary Region</label>
+            </value>
+            <value>
+                <fullName>Adjustments</fullName>
+                <default>false</default>
+                <label>Adjustments</label>
+            </value>
+            <value>
+                <fullName>Newfoundland</fullName>
+                <default>false</default>
+                <label>Newfoundland</label>
+            </value>
+            <value>
+                <fullName>Labrador</fullName>
+                <default>false</default>
+                <label>Labrador</label>
+            </value>
+            <value>
+                <fullName>SW Nova Scotia</fullName>
+                <default>false</default>
+                <label>SW Nova Scotia</label>
+            </value>
+            <value>
+                <fullName>C &amp; NE Nova Scotia</fullName>
+                <default>false</default>
+                <label>C &amp; NE Nova Scotia</label>
+            </value>
+            <value>
+                <fullName>Met. Halifax</fullName>
+                <default>false</default>
+                <label>Met. Halifax</label>
+            </value>
+            <value>
+                <fullName>Northern NB</fullName>
+                <default>false</default>
+                <label>Northern NB</label>
+            </value>
+            <value>
+                <fullName>Southern NB &amp; PEI</fullName>
+                <default>false</default>
+                <label>Southern NB &amp; PEI</label>
+            </value>
+            <value>
+                <fullName>House Zone/Atlantic</fullName>
+                <default>false</default>
+                <label>House Zone/Atlantic</label>
+            </value>
+            <value>
+                <fullName>Sag/LacStJean/CNord</fullName>
+                <default>false</default>
+                <label>Sag/LacStJean/CNord</label>
+            </value>
+            <value>
+                <fullName>Qc/Pointe Pic/Gaspe</fullName>
+                <default>false</default>
+                <label>Qc/Pointe Pic/Gaspe</label>
+            </value>
+            <value>
+                <fullName>St-Maurice/Becancour</fullName>
+                <default>false</default>
+                <label>St-Maurice/Becancour</label>
+            </value>
+            <value>
+                <fullName>Cantons de l&apos;Est</fullName>
+                <default>false</default>
+                <label>Cantons de l&apos;Est</label>
+            </value>
+            <value>
+                <fullName>RS/Hunt/Sor/Gran/Cow</fullName>
+                <default>false</default>
+                <label>RS/Hunt/Sor/Gran/Cow</label>
+            </value>
+            <value>
+                <fullName>Laval/Laurentides</fullName>
+                <default>false</default>
+                <label>Laval/Laurentides</label>
+            </value>
+            <value>
+                <fullName>Mtl/Vall/Hawk/Lachut</fullName>
+                <default>false</default>
+                <label>Mtl/Vall/Hawk/Lachut</label>
+            </value>
+            <value>
+                <fullName>Ott/StAn/Prec/Mat/Ab</fullName>
+                <default>false</default>
+                <label>Ott/StAn/Prec/Mat/Ab</label>
+            </value>
+            <value>
+                <fullName>Mattawa/Abitibi</fullName>
+                <default>false</default>
+                <label>Mattawa/Abitibi</label>
+            </value>
+            <value>
+                <fullName>HouseZone/EastRegion</fullName>
+                <default>false</default>
+                <label>HouseZone/EastRegion</label>
+            </value>
+            <value>
+                <fullName>Windsor/Chatham</fullName>
+                <default>false</default>
+                <label>Windsor/Chatham</label>
+            </value>
+            <value>
+                <fullName>London/Sarnia</fullName>
+                <default>false</default>
+                <label>London/Sarnia</label>
+            </value>
+            <value>
+                <fullName>Guelph/Kit/Brantford</fullName>
+                <default>false</default>
+                <label>Guelph/Kit/Brantford</label>
+            </value>
+            <value>
+                <fullName>Hamilton/Niagara</fullName>
+                <default>false</default>
+                <label>Hamilton/Niagara</label>
+            </value>
+            <value>
+                <fullName>Brampton/Burlington</fullName>
+                <default>false</default>
+                <label>Brampton/Burlington</label>
+            </value>
+            <value>
+                <fullName>Dufferin/Simcoe/York</fullName>
+                <default>false</default>
+                <label>Dufferin/Simcoe/York</label>
+            </value>
+            <value>
+                <fullName>York South/Toronto</fullName>
+                <default>false</default>
+                <label>York South/Toronto</label>
+            </value>
+            <value>
+                <fullName>Scarborough/Markham</fullName>
+                <default>false</default>
+                <label>Scarborough/Markham</label>
+            </value>
+            <value>
+                <fullName>Durham/Pet/Kingston</fullName>
+                <default>false</default>
+                <label>Durham/Pet/Kingston</label>
+            </value>
+            <value>
+                <fullName>ParrySound/SSMarie</fullName>
+                <default>false</default>
+                <label>ParrySound/SSMarie</label>
+            </value>
+            <value>
+                <fullName>Kenora / Thunder Bay</fullName>
+                <default>false</default>
+                <label>Kenora / Thunder Bay</label>
+            </value>
+            <value>
+                <fullName>HouseZone/CentRegior</fullName>
+                <default>false</default>
+                <label>HouseZone/CentRegior</label>
+            </value>
+            <value>
+                <fullName>Manitoba</fullName>
+                <default>false</default>
+                <label>Manitoba</label>
+            </value>
+            <value>
+                <fullName>Northern Sask</fullName>
+                <default>false</default>
+                <label>Northern Sask</label>
+            </value>
+            <value>
+                <fullName>Southern Sask</fullName>
+                <default>false</default>
+                <label>Southern Sask</label>
+            </value>
+            <value>
+                <fullName>Northern Alberta</fullName>
+                <default>false</default>
+                <label>Northern Alberta</label>
+            </value>
+            <value>
+                <fullName>Southern Alberta</fullName>
+                <default>false</default>
+                <label>Southern Alberta</label>
+            </value>
+            <value>
+                <fullName>Central&amp;Northern BC</fullName>
+                <default>false</default>
+                <label>Central&amp;Northern BC</label>
+            </value>
+            <value>
+                <fullName>Lower Mainland</fullName>
+                <default>false</default>
+                <label>Lower Mainland</label>
+            </value>
+            <value>
+                <fullName>Vancouver Island</fullName>
+                <default>false</default>
+                <label>Vancouver Island</label>
+            </value>
+            <value>
+                <fullName>Dawson Crk/Fort St J</fullName>
+                <default>false</default>
+                <label>Dawson Crk/Fort St J</label>
+            </value>
+            <value>
+                <fullName>Kimberley, Cranbrook</fullName>
+                <default>false</default>
+                <label>Kimberley, Cranbrook</label>
+            </value>
+            <value>
+                <fullName>House Zone / Western</fullName>
+                <default>false</default>
+                <label>House Zone / Western</label>
+            </value>
+            <value>
+                <fullName>Northwest Territorie</fullName>
+                <default>false</default>
+                <label>Northwest Territorie</label>
+            </value>
+            <value>
+                <fullName>Yukon</fullName>
+                <default>false</default>
+                <label>Yukon</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Canada DX</fullName>
+                <default>false</default>
+                <label>Canada DX</label>
+            </value>
+            <value>
+                <fullName>Headquarters</fullName>
+                <default>false</default>
+                <label>Headquarters</label>
+            </value>
+            <value>
+                <fullName>Undefined</fullName>
+                <default>false</default>
+                <label>Undefined</label>
+            </value>
+            <value>
+                <fullName>DX</fullName>
+                <default>false</default>
+                <label>DX</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>99</controllingFieldValue>
+            <valueName>Adjustments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN01</controllingFieldValue>
+            <valueName>Newfoundland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN22</controllingFieldValue>
+            <valueName>Hamilton/Niagara</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN23</controllingFieldValue>
+            <valueName>Brampton/Burlington</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN24</controllingFieldValue>
+            <valueName>Dufferin/Simcoe/York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN25</controllingFieldValue>
+            <valueName>York South/Toronto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN26</controllingFieldValue>
+            <valueName>Scarborough/Markham</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN27</controllingFieldValue>
+            <valueName>Durham/Pet/Kingston</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN28</controllingFieldValue>
+            <valueName>ParrySound/SSMarie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN02</controllingFieldValue>
+            <valueName>Labrador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN29</controllingFieldValue>
+            <valueName>Kenora / Thunder Bay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN03</controllingFieldValue>
+            <valueName>SW Nova Scotia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN30</controllingFieldValue>
+            <valueName>HouseZone/CentRegior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN04</controllingFieldValue>
+            <valueName>C &amp; NE Nova Scotia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN31</controllingFieldValue>
+            <valueName>Manitoba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN05</controllingFieldValue>
+            <valueName>Met. Halifax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN06</controllingFieldValue>
+            <valueName>Northern NB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN07</controllingFieldValue>
+            <valueName>Southern NB &amp; PEI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN08</controllingFieldValue>
+            <valueName>House Zone/Atlantic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN09</controllingFieldValue>
+            <valueName>Sag/LacStJean/CNord</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>18</controllingFieldValue>
+            <controllingFieldValue>14</controllingFieldValue>
+            <valueName>New York Metro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN10</controllingFieldValue>
+            <valueName>Qc/Pointe Pic/Gaspe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>19</controllingFieldValue>
+            <controllingFieldValue>12</controllingFieldValue>
+            <valueName>Upstate NY / NJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN11</controllingFieldValue>
+            <valueName>St-Maurice/Becancour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>20</controllingFieldValue>
+            <valueName>Southeast Zone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>21</controllingFieldValue>
+            <valueName>SE Coastal HS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>22</controllingFieldValue>
+            <valueName>Carolinas Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>23</controllingFieldValue>
+            <valueName>Atlanta Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>24</controllingFieldValue>
+            <valueName>Florida Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>25</controllingFieldValue>
+            <valueName>Med Lab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>26</controllingFieldValue>
+            <valueName>Piedmont</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>27</controllingFieldValue>
+            <valueName>Washington DC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN32</controllingFieldValue>
+            <valueName>Northern Sask</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN33</controllingFieldValue>
+            <valueName>Southern Sask</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>00</controllingFieldValue>
+            <valueName>Headquarters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN34</controllingFieldValue>
+            <valueName>Northern Alberta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Northeast Zone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN35</controllingFieldValue>
+            <valueName>Southern Alberta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>11</controllingFieldValue>
+            <valueName>Boston</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN36</controllingFieldValue>
+            <valueName>Central&amp;Northern BC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN37</controllingFieldValue>
+            <valueName>Lower Mainland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>13</controllingFieldValue>
+            <valueName>Philadelphia Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN38</controllingFieldValue>
+            <valueName>Vancouver Island</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN39</controllingFieldValue>
+            <valueName>Dawson Crk/Fort St J</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>15</controllingFieldValue>
+            <valueName>EM East Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN40</controllingFieldValue>
+            <valueName>Kimberley, Cranbrook</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>16</controllingFieldValue>
+            <valueName>Boston Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN41</controllingFieldValue>
+            <valueName>House Zone / Western</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>17</controllingFieldValue>
+            <valueName>HS Eastern PA Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>28</controllingFieldValue>
+            <valueName>Chesapeake HS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>29</controllingFieldValue>
+            <valueName>Heartland HS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>30</controllingFieldValue>
+            <valueName>Central Zone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>31</controllingFieldValue>
+            <valueName>Washington DC Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>32</controllingFieldValue>
+            <valueName>Detroit Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>33</controllingFieldValue>
+            <valueName>Pittsburgh Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>34</controllingFieldValue>
+            <valueName>Columbus Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>35</controllingFieldValue>
+            <valueName>Nashville Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>36</controllingFieldValue>
+            <valueName>Chicago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>37</controllingFieldValue>
+            <valueName>Great Lakes HS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN42</controllingFieldValue>
+            <valueName>Northwest Territorie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN43</controllingFieldValue>
+            <valueName>Yukon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN99</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CANDX</controllingFieldValue>
+            <valueName>Canada DX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>-1</controllingFieldValue>
+            <valueName>Undefined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DX</controllingFieldValue>
+            <valueName>DX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>38</controllingFieldValue>
+            <valueName>Keystone Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>39</controllingFieldValue>
+            <valueName>Allegheny Valley HS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>40</controllingFieldValue>
+            <valueName>Midwest Zone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>41</controllingFieldValue>
+            <valueName>Cassling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>42</controllingFieldValue>
+            <valueName>Chicago Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>43</controllingFieldValue>
+            <valueName>St. Louis Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>44</controllingFieldValue>
+            <valueName>Minneapolis Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>45</controllingFieldValue>
+            <valueName>Dallas HS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>46</controllingFieldValue>
+            <valueName>St. Louis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>47</controllingFieldValue>
+            <valueName>New Orleans Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>48</controllingFieldValue>
+            <valueName>SW Gulf old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>49</controllingFieldValue>
+            <valueName>Florida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>50</controllingFieldValue>
+            <valueName>Western Zone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>51</controllingFieldValue>
+            <valueName>EM West Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>52</controllingFieldValue>
+            <valueName>Denver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>53</controllingFieldValue>
+            <valueName>Dallas Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>54</controllingFieldValue>
+            <valueName>Los Angeles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>55</controllingFieldValue>
+            <valueName>Houston Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>56</controllingFieldValue>
+            <valueName>San Francisco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>57</controllingFieldValue>
+            <valueName>Seattle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>58</controllingFieldValue>
+            <valueName>Mid South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>59</controllingFieldValue>
+            <valueName>South Texas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>60</controllingFieldValue>
+            <valueName>Los Angeles Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>61</controllingFieldValue>
+            <valueName>Seattle Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>62</controllingFieldValue>
+            <valueName>San Diego Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>63</controllingFieldValue>
+            <valueName>San Francisco Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>64</controllingFieldValue>
+            <valueName>Denver Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>65</controllingFieldValue>
+            <valueName>Philadelphia HS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>66</controllingFieldValue>
+            <valueName>Atlanta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>67</controllingFieldValue>
+            <valueName>Great Lakes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>68</controllingFieldValue>
+            <valueName>Ohio Valley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>69</controllingFieldValue>
+            <valueName>Keystone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>70</controllingFieldValue>
+            <valueName>DISS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>72</controllingFieldValue>
+            <valueName>Dallas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>73</controllingFieldValue>
+            <valueName>Alt Ch Northeast Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>74</controllingFieldValue>
+            <valueName>Alt Ch Southeast Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>75</controllingFieldValue>
+            <valueName>Alt Ch Central Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>76</controllingFieldValue>
+            <valueName>Alt Ch Midwest Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>77</controllingFieldValue>
+            <valueName>Med Lab Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>78</controllingFieldValue>
+            <valueName>Cassling Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>79</controllingFieldValue>
+            <valueName>Alt Ch Western Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>80</controllingFieldValue>
+            <valueName>Alt Chan Western Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>81</controllingFieldValue>
+            <valueName>Alt Chan Sthwest Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>82</controllingFieldValue>
+            <valueName>Alt Chan Mdwest Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>83</controllingFieldValue>
+            <valueName>Alt Chan Stheast Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>84</controllingFieldValue>
+            <valueName>Alt Chan MdAttic Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>85</controllingFieldValue>
+            <valueName>Alt Chan Central Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>86</controllingFieldValue>
+            <valueName>Alt Chan Eastern Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>87</controllingFieldValue>
+            <valueName>Alt Chan Ntheast Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>88</controllingFieldValue>
+            <valueName>Alt Chan Sonocur Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN12</controllingFieldValue>
+            <valueName>Cantons de l&apos;Est</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN13</controllingFieldValue>
+            <valueName>RS/Hunt/Sor/Gran/Cow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN14</controllingFieldValue>
+            <valueName>Laval/Laurentides</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN15</controllingFieldValue>
+            <valueName>Mtl/Vall/Hawk/Lachut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN16</controllingFieldValue>
+            <valueName>Ott/StAn/Prec/Mat/Ab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN17</controllingFieldValue>
+            <valueName>Mattawa/Abitibi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN18</controllingFieldValue>
+            <valueName>HouseZone/EastRegion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>89</controllingFieldValue>
+            <valueName>Southeast HS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN19</controllingFieldValue>
+            <valueName>Windsor/Chatham</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>90</controllingFieldValue>
+            <valueName>HS HQ Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN20</controllingFieldValue>
+            <valueName>London/Sarnia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>91</controllingFieldValue>
+            <valueName>CRC Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAN21</controllingFieldValue>
+            <valueName>Guelph/Kit/Brantford</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>92</controllingFieldValue>
+            <valueName>HDX Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>93</controllingFieldValue>
+            <valueName>NHS Old</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>94</controllingFieldValue>
+            <valueName>Northern Lakes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>97</controllingFieldValue>
+            <valueName>Consultant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>98</controllingFieldValue>
+            <valueName>Intl Primary Region</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

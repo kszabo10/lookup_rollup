@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Name_Validation_6</fullName>
+    <active>true</active>
+    <description>Post_Office_Box_Validation</description>
+    <errorConditionFormula>$CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c == true &amp;&amp;
+
+ISBLANK(SHS_Street__c) &amp;&amp;
+
+ISBLANK(SHS_Po_box_input__c) &amp;&amp;
+
+SHS_Record_Type_Name__c == &apos;External&apos;
+
+
+/*IF(AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+(SHS_Record_Type_Name__c = &apos;External&apos;), NOT(ISBLANK(SHS_Street__c)),ISBLANK(SHS_Po_box_input__c)), False,
+IF(AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+(SHS_Record_Type_Name__c = &apos;External&apos;), ISBLANK(SHS_Street__c),NOT(ISBLANK(SHS_Po_box_input__c))), False,
+IF(AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+(SHS_Record_Type_Name__c = &apos;Siemens Healthineers&apos;)), False,
+IF(AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+(SHS_Record_Type_Name__c = &apos;Siemens&apos;)), False,
+IF(AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+(SHS_Record_Type_Name__c = &apos;P40 Account&apos;)), False,
+IF(AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+(SHS_Record_Type_Name__c = &apos;Administrative Account&apos;)), False,
+IF(AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+(SHS_Record_Type_Name__c = &apos;One-Time Load&apos;)), False, True )))))))
+*/
+
+
+
+
+
+/*
+AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+(SHS_Record_Type_Name__c = &apos;External&apos;),
+OR(NOT(ISNULL(SHS_Street__c)),NOT(ISNULL(SHS_Po_box_input__c))))
+*/</errorConditionFormula>
+    <errorMessage>Either Street or PO Box field should be filled</errorMessage>
+</ValidationRule>

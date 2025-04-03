@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>detailed</fullName>
+    <columns>CONTACT.RECORDTYPE</columns>
+    <columns>CONTACT.LAST_NAME</columns>
+    <columns>CONTACT.FIRST_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>col_AreaOfResponsibility__c</columns>
+    <columns>col_Role__c</columns>
+    <columns>col_OrgRegion__c</columns>
+    <columns>col_OrgZone__c</columns>
+    <columns>col_Country__c</columns>
+    <columns>col_PrimaryOrgUnit__c</columns>
+    <columns>col_SecondaryOrgUnit__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>detailed</label>
+</ListView>

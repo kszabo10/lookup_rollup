@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_AmendmentStatusCheck</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(col_AmendmentStatus__c,&quot;In Amendment&quot;),
+NOT(ISPICKVAL(col_StageName__c,&quot;Running&quot;)))</errorConditionFormula>
+    <errorMessage>Please finish the Amendment before you move to the next or previous stage.</errorMessage>
+</ValidationRule>

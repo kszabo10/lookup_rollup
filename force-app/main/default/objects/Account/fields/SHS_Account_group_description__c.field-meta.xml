@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SHS_Account_group_description__c</fullName>
+    <label>Account Group Description</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SHS_Account_group__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sold-to party</fullName>
+                <default>false</default>
+                <label>Sold-to party</label>
+            </value>
+            <value>
+                <fullName>Ship-to party</fullName>
+                <default>false</default>
+                <label>Ship-to party</label>
+            </value>
+            <value>
+                <fullName>Payer</fullName>
+                <default>false</default>
+                <label>Payer</label>
+            </value>
+            <value>
+                <fullName>Bill-to party</fullName>
+                <default>false</default>
+                <label>Bill-to party</label>
+            </value>
+            <value>
+                <fullName>Prospective customer</fullName>
+                <default>false</default>
+                <label>Prospective customer</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Sales partner</fullName>
+                <default>false</default>
+                <label>Sales partner</label>
+            </value>
+            <value>
+                <fullName>Hierarchy node</fullName>
+                <default>false</default>
+                <label>Hierarchy node</label>
+            </value>
+            <value>
+                <fullName>Distribution center</fullName>
+                <default>false</default>
+                <label>Distribution center</label>
+            </value>
+            <value>
+                <fullName>Branch w/o intercomp.billing</fullName>
+                <default>false</default>
+                <label>Branch w/o intercomp.billing</label>
+            </value>
+            <value>
+                <fullName>Branch with intercomp.billing</fullName>
+                <default>false</default>
+                <label>Branch with intercomp.billing</label>
+            </value>
+            <value>
+                <fullName>Branch with external billing</fullName>
+                <default>false</default>
+                <label>Branch with external billing</label>
+            </value>
+            <value>
+                <fullName>Franchisee</fullName>
+                <default>false</default>
+                <label>Franchisee</label>
+            </value>
+            <value>
+                <fullName>Wholesale customer</fullName>
+                <default>false</default>
+                <label>Wholesale customer</label>
+            </value>
+            <value>
+                <fullName>Consumer</fullName>
+                <default>false</default>
+                <label>Consumer</label>
+            </value>
+            <value>
+                <fullName>One-time cust.(int.no.assgnmt)</fullName>
+                <default>false</default>
+                <label>One-time cust.(int.no.assgnmt)</label>
+            </value>
+            <value>
+                <fullName>One-time cust.(ext.no.assgnmt)</fullName>
+                <default>false</default>
+                <label>One-time cust.(ext.no.assgnmt)</label>
+            </value>
+            <value>
+                <fullName>Customer (int.number assgnmt)</fullName>
+                <default>false</default>
+                <label>Customer (int.number assgnmt)</label>
+            </value>
+            <value>
+                <fullName>Customer (ext.number assgnmt)</fullName>
+                <default>false</default>
+                <label>Customer (ext.number assgnmt)</label>
+            </value>
+            <value>
+                <fullName>TR-LO customer</fullName>
+                <default>false</default>
+                <label>TR-LO customer</label>
+            </value>
+            <value>
+                <fullName>Sales District-Acuson</fullName>
+                <default>false</default>
+                <label>Sales District-Acuson</label>
+            </value>
+            <value>
+                <fullName>DX ChargeBack GPO</fullName>
+                <default>false</default>
+                <label>DX ChargeBack GPO</label>
+            </value>
+            <value>
+                <fullName>Sales District-CSG</fullName>
+                <default>false</default>
+                <label>Sales District-CSG</label>
+            </value>
+            <value>
+                <fullName>DX Sales Rep</fullName>
+                <default>false</default>
+                <label>DX Sales Rep</label>
+            </value>
+            <value>
+                <fullName>DX End Users</fullName>
+                <default>false</default>
+                <label>DX End Users</label>
+            </value>
+            <value>
+                <fullName>DX Super group</fullName>
+                <default>false</default>
+                <label>DX Super group</label>
+            </value>
+            <value>
+                <fullName>Inhouse Engineer</fullName>
+                <default>false</default>
+                <label>Inhouse Engineer</label>
+            </value>
+            <value>
+                <fullName>National Account/VPA</fullName>
+                <default>false</default>
+                <label>National Account/VPA</label>
+            </value>
+            <value>
+                <fullName>National Corporate Initiative</fullName>
+                <default>false</default>
+                <label>National Corporate Initiative</label>
+            </value>
+            <value>
+                <fullName>Participant to Compl. Contract</fullName>
+                <default>false</default>
+                <label>Participant to Compl. Contract</label>
+            </value>
+            <value>
+                <fullName>Other Corporate Agreements</fullName>
+                <default>false</default>
+                <label>Other Corporate Agreements</label>
+            </value>
+            <value>
+                <fullName>Scheduling Contact Person</fullName>
+                <default>false</default>
+                <label>Scheduling Contact Person</label>
+            </value>
+            <value>
+                <fullName>TAO customer for PPE order</fullName>
+                <default>false</default>
+                <label>TAO customer for PPE order</label>
+            </value>
+            <value>
+                <fullName>T&amp;T FSE DOP Partner</fullName>
+                <default>false</default>
+                <label>T&amp;T FSE DOP Partner</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>YASD</controllingFieldValue>
+            <valueName>Sales District-Acuson</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>YCGP</controllingFieldValue>
+            <valueName>DX ChargeBack GPO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>YCSD</controllingFieldValue>
+            <valueName>Sales District-CSG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>YDSH</controllingFieldValue>
+            <valueName>DX Sales Rep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>YEUR</controllingFieldValue>
+            <valueName>DX End Users</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>YGPO</controllingFieldValue>
+            <valueName>DX Super group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZIHE</controllingFieldValue>
+            <valueName>Inhouse Engineer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZNAT</controllingFieldValue>
+            <valueName>National Account/VPA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZNCI</controllingFieldValue>
+            <valueName>National Corporate Initiative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZPAR</controllingFieldValue>
+            <valueName>Participant to Compl. Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0110</controllingFieldValue>
+            <valueName>Branch w/o intercomp.billing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZSAA</controllingFieldValue>
+            <valueName>Other Corporate Agreements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0120</controllingFieldValue>
+            <valueName>Branch with intercomp.billing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZSCP</controllingFieldValue>
+            <valueName>Scheduling Contact Person</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0130</controllingFieldValue>
+            <valueName>Branch with external billing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZTAO</controllingFieldValue>
+            <valueName>TAO customer for PPE order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ZTT</controllingFieldValue>
+            <valueName>T&amp;T FSE DOP Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0150</controllingFieldValue>
+            <valueName>Franchisee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0160</controllingFieldValue>
+            <valueName>Wholesale customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0170</controllingFieldValue>
+            <valueName>Consumer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CPD</controllingFieldValue>
+            <valueName>One-time cust.(int.no.assgnmt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CPDA</controllingFieldValue>
+            <valueName>One-time cust.(ext.no.assgnmt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DEBI</controllingFieldValue>
+            <valueName>Customer (int.number assgnmt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0001</controllingFieldValue>
+            <valueName>Sold-to party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0002</controllingFieldValue>
+            <valueName>Ship-to party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0003</controllingFieldValue>
+            <valueName>Payer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0004</controllingFieldValue>
+            <valueName>Bill-to party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0005</controllingFieldValue>
+            <valueName>Prospective customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0006</controllingFieldValue>
+            <valueName>Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0007</controllingFieldValue>
+            <valueName>Sales partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0012</controllingFieldValue>
+            <valueName>Hierarchy node</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0100</controllingFieldValue>
+            <valueName>Distribution center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>KUNA</controllingFieldValue>
+            <valueName>Customer (ext.number assgnmt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>VVD</controllingFieldValue>
+            <valueName>TR-LO customer</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

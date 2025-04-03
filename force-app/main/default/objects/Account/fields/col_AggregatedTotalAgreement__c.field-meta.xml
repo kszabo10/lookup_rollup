@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_AggregatedTotalAgreement__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>This fields rolls-up the Total Agreement Value from all Collaboration projects linked to this Account</description>
+    <inlineHelpText>The summary of the Total Agreement Values from the related Collaboration projects. Only Projects in Stage &quot;Running&quot;, &quot;In Closing&quot; and &quot;Closed&quot; are summarised.</inlineHelpText>
+    <label>Aggregated Collaboration Total Agreement</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

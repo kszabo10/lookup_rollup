@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SHS_Governmental_customer_indicator__c</fullName>
+    <inlineHelpText>A Governmental entity is any corporation, company or other entity directly or indirectly affiliated, generally by government ownership or control, with federal, state, provincial or similar government.
+
+Classification of customer (blank, G (Governmental business), NG (Non-Governmental business))</inlineHelpText>
+    <label>Governmental Customer Indicator</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>G</fullName>
+                <default>false</default>
+                <label>G</label>
+            </value>
+            <value>
+                <fullName>NG</fullName>
+                <default>false</default>
+                <label>NG</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

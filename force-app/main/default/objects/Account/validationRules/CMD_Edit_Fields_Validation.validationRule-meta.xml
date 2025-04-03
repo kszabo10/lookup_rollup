@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CMD_Edit_Fields_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+OR(ISPICKVAL(SHS_Account_status__c,&apos;Active&apos;),ISPICKVAL(SHS_Account_status__c,&apos;Validation Pending&apos;),ISPICKVAL(SHS_Account_status__c,&apos;Rejected&apos;)),
+NOT($Profile.Name=&apos;Sys Admin Integration&apos;),NOT($Profile.Name=&apos;System Administrator&apos;),SHS_Record_Type_Name__c = &apos;External&apos;)</errorConditionFormula>
+    <errorMessage>Account cannot be Edited.</errorMessage>
+</ValidationRule>

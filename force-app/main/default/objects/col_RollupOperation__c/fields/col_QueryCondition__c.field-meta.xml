@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_QueryCondition__c</fullName>
+    <description>Define the child records condition what to roll-up. It is in SOQL syntax, to be followed by the WHERE clause.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>QueryCondition</label>
+    <length>1024</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

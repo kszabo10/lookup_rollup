@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_ZeroValueRestrictions</fullName>
+    <active>true</active>
+    <description>After the Project Approval Stage and in the case, that the Project approval was not required because of the Zero Value Project it should not be allowed to change the Zero Value Project back.</description>
+    <errorConditionFormula>AND (
+     NOT( ISPICKVAL(col_StageName__c, &quot;InDefinition&quot;)),
+     NOT( ISPICKVAL(col_StageName__c, &quot;ProjectApproval&quot;)),
+     ISCHANGED(col_ZeroValueProject__c ),
+     NOT( ISPICKVAL(col_ProjectApproval__c, &quot;Approved&quot;)),
+     col_ZeroValueProject__c=FALSE       
+     )</errorConditionFormula>
+    <errorDisplayField>col_ZeroValueProject__c</errorDisplayField>
+    <errorMessage>You attempted to change the Zero-Value Project to a value that requires Project Approval. Please return to the Project Approval Stage and make this change there.</errorMessage>
+</ValidationRule>

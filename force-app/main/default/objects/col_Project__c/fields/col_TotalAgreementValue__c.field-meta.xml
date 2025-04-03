@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_TotalAgreementValue__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Roll-up figure of SHS Deliverable Value from the related SHS Deliverable records. The field rolls-up, however, the user can manually modify its value, as agreed with SHS. When the Project record has changes in the related Deliverables, the value of this field will again contain the rolled-up figures.</description>
+    <inlineHelpText>Summary value of the SHS Deliverable Values in the related SHS Deliverable records. It summarises the amount which SHS will pay out to the partner.</inlineHelpText>
+    <label>Total Agreement Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

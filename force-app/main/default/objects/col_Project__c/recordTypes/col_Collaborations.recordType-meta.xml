@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_Collaborations</fullName>
+    <active>true</active>
+    <description>Matching Record type with the CLMA Agreement&apos;s Collaborations Record Type</description>
+    <label>Collaborations</label>
+    <picklistValues>
+        <picklist>col_AmendmentStatus__c</picklist>
+        <values>
+            <fullName>Amended</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Amended</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_ClosingReason__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_CollaborationReason__c</picklist>
+        <values>
+            <fullName>1A - Prototype Development%3A Performance Assessment with retrospective data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1B - Prototype Development%3A Clinical Investigation with prospective data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1C - Prototype Development%3A co-creation with retrospective data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2 - Basic Science%2FAcademic Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A - Scientific Marketing%3A confirm existing claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3B - Scientific Marketing%3A expand existing claims</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3C - Scientific Marketing%3A potential claim prototype</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4 - Tender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - Product Feedback %28e%2Eg%2E%2C CUT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 - Value Partnership %28ES%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 - Grant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 - WIP Research Tool %28MR%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_ComplianceApproval__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Compliance Release applies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InPreparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_ContractGovernance__c</picklist>
+        <values>
+            <fullName>Collaborations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collaborations Related</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_ContractType__c</picklist>
+        <values>
+            <fullName>CDU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DLOAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POSTMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PRF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RESCOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RGRANT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPECIM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STUDY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SWLIC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_DAMEXCheck__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Please select</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_Departmentalrestriction__c</picklist>
+        <values>
+            <fullName>LC CL Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M%26A Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate Department</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_Function__c</picklist>
+        <values>
+            <fullName>STMA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_PermissionScope__c</picklist>
+        <values>
+            <fullName>Collaborations</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_PrimaryOrgUnit__c</picklist>
+        <values>
+            <fullName>AT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_ProjectApproval__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InPreparation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_ProjectType__c</picklist>
+        <values>
+            <fullName>Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_SecondaryOrgUnit__c</picklist>
+        <values>
+            <fullName>AT COR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AT CVC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AT IN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AT IR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AT R_D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AT SU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DI CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DI D_A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DI IBD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DI MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DI MR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DI ST</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DI XP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DX LD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DX POC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DX TIO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE BPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE CYS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE DTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE IP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE ME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE MP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE PLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE PV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE TIM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TE UX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAR CTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAR CTH PT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAR IS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAR MAF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAR MDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAR PS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAR ROS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_SponsorOfCollaboration__c</picklist>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SHS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_StageName__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InClosing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InDefinition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OtherApprovals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ProjectApproval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RefineAndContract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Running</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_StrategicClinicalField__c</picklist>
+        <values>
+            <fullName>AI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Access to Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anemia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Autoimmune disease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bone Metabolism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Breast Cancer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIC - Alzheimer%27s Disease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardiovascular Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>China Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ClC - Breast Cancer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ClC - CAD%3A Coronary Artery Disease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ClC - CAD%3A Heart Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ClC - CAD%3A Structural Heart Disease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ClC - Liver Cancer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ClC - Lung Cancer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ClC - Stroke%3A Acute Stroke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ClC - Stroke%3A Prevention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ClC - Structural Heart Disease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comprehensive Cancer Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diabetes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digitally-enabled Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drug of Abuse and Toxicology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fleet %26 utilization management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hematology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hemostasis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immunosuppressant Drugs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Infectious diseases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inflammation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interventional Oncology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interventional Radiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liver Cancer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liver Fibrosis%2Fdisease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lung Cancer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSK%2FOrtho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metabolic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Networked Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neurology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neurovascular Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuclear Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oncology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatrics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plasma Proteins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Cost effective assessment%2FHEOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prostate Cancer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radiation Oncology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reproductive Endocrinology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sepsis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specific Proteins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specimen Validity Testing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spectroscopy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stroke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surgery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustainability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Theranostics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Therapeutic Drug Monitoring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Therapy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thyroid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UHF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women%27s Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>mMR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>col_WhoProposedCollaboration__c</picklist>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SHS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SHS %2B Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

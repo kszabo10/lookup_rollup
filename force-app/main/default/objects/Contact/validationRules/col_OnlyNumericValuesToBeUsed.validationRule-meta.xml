@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_OnlyNumericValuesToBeUsed</fullName>
+    <active>true</active>
+    <description>Ensure that only numeric values are entered in certain text fields (currently used for only License #)</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(col_LicenseNumber__c)),
+NOT(ISNUMBER(col_LicenseNumber__c))
+)</errorConditionFormula>
+    <errorDisplayField>col_LicenseNumber__c</errorDisplayField>
+    <errorMessage>Please make sure to enter only numbers in this field</errorMessage>
+</ValidationRule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_By_Integration</fullName>
+    <columns>SHS_Ciss_cmd_account_id__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>SHS_Are_ifa__c</columns>
+    <columns>SHS_Country__c</columns>
+    <columns>SHS_Address__c</columns>
+    <columns>SHS_Account_type__c</columns>
+    <columns>SHS_Account_status__c</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SHS_Account_type__c</field>
+        <operation>equals</operation>
+        <value>CMD</value>
+    </filters>
+    <label>Accounts By Integration</label>
+</ListView>

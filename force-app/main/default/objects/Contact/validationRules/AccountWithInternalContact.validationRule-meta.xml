@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountWithInternalContact</fullName>
+    <active>true</active>
+    <description>If the Contact&apos;s RecordType = &apos;Internal&apos;, then only Administrative, Siemens or Siemens Helathineers Accounts can be used as parent</description>
+    <errorConditionFormula>RecordType.Name == &apos;Internal&apos; &amp;&amp;
+Account.RecordType.Name != &apos;Administrative Account&apos; &amp;&amp;
+Account.RecordType.Name != &apos;Siemens&apos; &amp;&amp; 
+Account.RecordType.Name != &apos;Siemens Healthineers&apos;</errorConditionFormula>
+    <errorMessage>In case of Internal Contact, only Account with Administrative, Siemens or Siemens Helathineers Record Type can be added</errorMessage>
+</ValidationRule>

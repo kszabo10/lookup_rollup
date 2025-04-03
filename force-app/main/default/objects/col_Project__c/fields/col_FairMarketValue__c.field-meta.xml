@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_FairMarketValue__c</fullName>
+    <description>Fair Market Value based on the Deliverables</description>
+    <formula>col_TotalDelValue__c -  col_TotalPartnerDelValue__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Calculated as follows: Total SHS Deliverable Value - Total Partner Deliverable Value</inlineHelpText>
+    <label>Fair Market Value equivalent?</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

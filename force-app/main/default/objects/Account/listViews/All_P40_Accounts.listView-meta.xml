@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_P40_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>SHS_Customer_no__c</columns>
+    <columns>SHS_Ifa_nr__c</columns>
+    <columns>SHS_Country_name__c</columns>
+    <columns>SHS_Account_status__c</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>SHS_City__c</columns>
+    <columns>SHS_Street__c</columns>
+    <columns>SHS_Postal_code__c</columns>
+    <columns>SHS_Region_state_province__c</columns>
+    <columns>SHS_Gp_nr__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.P40_Account</value>
+    </filters>
+    <label>All P40 Accounts</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_OrgRegion__c</fullName>
+    <description>Introduced in CollApp for the management of internal contacts</description>
+    <label>Org Region</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>col_OrgRegion</valueSetName>
+    </valueSet>
+</CustomField>

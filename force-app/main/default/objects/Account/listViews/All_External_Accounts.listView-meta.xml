@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_External_Accounts</fullName>
+    <columns>SHS_Standard_clma_account_id__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>SHS_Account_type__c</columns>
+    <columns>SHS_Account_status__c</columns>
+    <columns>SHS_Ifa_nr__c</columns>
+    <columns>SHS_Designated_CLMA_Account__c</columns>
+    <columns>SHS_Other_UUIDs_with_External_System_Ref__c</columns>
+    <columns>SHS_Customer_no__c</columns>
+    <columns>SHS_City__c</columns>
+    <columns>SHS_Country_name__c</columns>
+    <columns>SHS_CMD_info_text__c</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <columns>SHS_Gp_nr__c</columns>
+    <columns>SHS_Doing_Business_As_DBA__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.External,Account.One_Time_Load,Account.P40_Account</value>
+    </filters>
+    <filters>
+        <field>SHS_Designated_CLMA_Account__c</field>
+        <operation>notContain</operation>
+        <value>AC-</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>All External Accounts</label>
+</ListView>

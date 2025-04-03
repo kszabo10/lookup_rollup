@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>col_SharingControlFields</fullName>
+    <description>Used in apex sharing for the Project object. Contains all the fields which are used to calculate the sharing.</description>
+    <displayedFields>
+        <field>col_PrimaryOrgUnit__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>col_SecondaryOrgUnit__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Sharing Control Fields</label>
+</FieldSet>

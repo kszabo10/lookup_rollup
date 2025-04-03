@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SHS_Sales_Zone_name__c</fullName>
+    <label>Sales Zone Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SHS_Sales_zone__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Canada Central</fullName>
+                <default>false</default>
+                <label>Canada Central</label>
+            </value>
+            <value>
+                <fullName>Canada East</fullName>
+                <default>false</default>
+                <label>Canada East</label>
+            </value>
+            <value>
+                <fullName>Canada FSR</fullName>
+                <default>false</default>
+                <label>Canada FSR</label>
+            </value>
+            <value>
+                <fullName>Canada West</fullName>
+                <default>false</default>
+                <label>Canada West</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>Eastern</fullName>
+                <default>false</default>
+                <label>Eastern</label>
+            </value>
+            <value>
+                <fullName>Headquarters</fullName>
+                <default>false</default>
+                <label>Headquarters</label>
+            </value>
+            <value>
+                <fullName>HS Specific</fullName>
+                <default>false</default>
+                <label>HS Specific</label>
+            </value>
+            <value>
+                <fullName>Mid Atlantic</fullName>
+                <default>false</default>
+                <label>Mid Atlantic</label>
+            </value>
+            <value>
+                <fullName>Midwest</fullName>
+                <default>false</default>
+                <label>Midwest</label>
+            </value>
+            <value>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+                <label>Northeast</label>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+                <label>Southeast</label>
+            </value>
+            <value>
+                <fullName>Southwest</fullName>
+                <default>false</default>
+                <label>Southwest</label>
+            </value>
+            <value>
+                <fullName>Western</fullName>
+                <default>false</default>
+                <label>Western</label>
+            </value>
+            <value>
+                <fullName>Undefined</fullName>
+                <default>false</default>
+                <label>Undefined</label>
+            </value>
+            <value>
+                <fullName>DX</fullName>
+                <default>false</default>
+                <label>DX</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>20</controllingFieldValue>
+            <controllingFieldValue>4</controllingFieldValue>
+            <valueName>Southeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>30</controllingFieldValue>
+            <controllingFieldValue>6</controllingFieldValue>
+            <valueName>Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>40</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <valueName>Midwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>50</controllingFieldValue>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>Western</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>70</controllingFieldValue>
+            <valueName>Canada East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>80</controllingFieldValue>
+            <valueName>Canada Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>90</controllingFieldValue>
+            <valueName>Canada West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>99</controllingFieldValue>
+            <valueName>Canada FSR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>-1</controllingFieldValue>
+            <valueName>Undefined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>Headquarters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>HS Specific</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2</controllingFieldValue>
+            <valueName>Southwest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>5</controllingFieldValue>
+            <valueName>Mid Atlantic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>7</controllingFieldValue>
+            <valueName>Eastern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>8</controllingFieldValue>
+            <controllingFieldValue>10</controllingFieldValue>
+            <valueName>Northeast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DX</controllingFieldValue>
+            <valueName>DX</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

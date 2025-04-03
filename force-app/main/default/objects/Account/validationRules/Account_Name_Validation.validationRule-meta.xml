@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Name_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+OR(ISCHANGED(Name),ISCHANGED(SHS_Street__c),ISCHANGED( SHS_City__c ),ISCHANGED( SHS_Postal_code__c ), ISCHANGED(SHS_Country__c ),
+ISCHANGED( SHS_Region_state_province__c ), ISCHANGED( SHS_Government_classification__c ), ISCHANGED( SHS_Account_type__c ), ISCHANGED( SHS_Business_partner_type__c ), ISCHANGED(SHS_Governmental_customer_indicator__c), ISCHANGED(SHS_Account_status__c),
+ISCHANGED( SHS_Org_region__c ),ISCHANGED(SHS_Org_zone__c ),ISCHANGED(OwnerId ), ISCHANGED(SHS_Legal_Hold__c ), ISCHANGED(ParentId )),
+NOT($Profile.Name = &apos;Sys Admin Integration&apos;),
+((ISPICKVAL(SHS_Account_type__c, &apos;Conga - Restricted Prospect&apos;) &amp;&amp; ISPICKVAL(SHS_Account_status__c, &apos;Validation Pending&apos;))))
+
+/*AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+OR(ISCHANGED(Name),ISCHANGED(SHS_Street__c),ISCHANGED( SHS_City__c ),ISCHANGED( SHS_Postal_code__c ), ISCHANGED(SHS_Country__c ), 
+ISCHANGED( SHS_Region_state_province__c ),
+ISCHANGED( SHS_Org_region__c ),ISCHANGED(SHS_Org_zone__c )),
+NOT($Profile.Name=&apos;System Administrator&apos;),NOT($Profile.Name=&apos;Sys Admin Integration&apos;),NOT($Profile.Name=&apos;SHS Business Admin&apos;),
+((ISPICKVAL(SHS_Account_type__c, &apos;Conga - Restricted Prospect&apos;) &amp;&amp; ISPICKVAL(SHS_Account_status__c, &apos;Validation Pending&apos;)) || (ISPICKVAL(SHS_Account_type__c, &apos;CMD&apos;) &amp;&amp; ISPICKVAL(SHS_Account_status__c, &apos;Active&apos;)) || (ISPICKVAL(SHS_Account_type__c, &apos;Conga - Validated&apos;) &amp;&amp; ISPICKVAL(SHS_Account_status__c, &apos;Rejected&apos;))))*/
+
+
+
+/*AND(($CustomMetadata.Validation_Rule_Configuration__mdt.Account_Validation_Enable.SHS_Account__c = True),
+ISCHANGED(Name),NOT($Profile.Name=&apos;System Administrator&apos;),NOT($Profile.Name=&apos;Sys Admin Integration&apos;))*/</errorConditionFormula>
+    <errorMessage>Account Fields cannot be Changed - Conga Restricted Prospect and Validation Pending</errorMessage>
+</ValidationRule>
