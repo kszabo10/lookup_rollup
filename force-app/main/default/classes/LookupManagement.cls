@@ -1,9 +1,9 @@
 /***
  * ===================================================================
- * @version     1.1
- * @date        2024-11-26
- * @description Rollup calculation on lookup/master-detail fields
- * 				Ensure rollup is calculated even if the field did not change
+ * @version     
+ * @date        
+ * @description 
+ * 				
  * ===================================================================
 **/
 public class LookupManagement {
