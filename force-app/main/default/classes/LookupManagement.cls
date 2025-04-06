@@ -130,7 +130,7 @@ public class LookupManagement {
 	}
 
     /**
-    * @description			    Call the calculateAllRollups method in an async way
+    * @description			    Call the calculaRollups method in an async way
     * @param newRecords			[Map<Id, SObject] the possible newRecords from the TriggerHandler
 	* @param oldRecords	    	[Map<Id, SObject] the possible oldRecords from the TriggerHandler
 	* @param triggerType		[String] the trigger type

@@ -16,3 +16,43 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
+
+
+Salesforce lookup rollup (Apex code based)
+
+The lookup package contains an Apex-based rollup solution on objects with lookup relationship. It provides the following rollup operations;
+- SUM: summary;
+- COUNT: counting the number of child records;
+- AVG: calculate the average on a field on the child records;
+- MIN and MAX: minimum and maximum values of a filed on the related child records.
+
+Definitions of the rollup logic are stored in the RollupOperation__c custom object. The original rollup definitions can be uploaded to the object from the RollupOperationTestData.json file which is stored as a static resource.
+The upload to the RollupOperation__c custom object can be done by the
+- DemoDataCreation.createRollupOperations() method.
+Deployment to a scratch org
+
+The package can be deployed by the standard sf CLI commands to a scratch org. The scratch definition file can be found at /config/project-scratch-def.json.
+
+After cloning the repository, the following can be used to create the scratch org:
+- sf org create scratch –-definition-file ./config/project-scratch-def.json –set-default –-alias basic_package
+
+The following command wish push the metadata to the newly created scratch org:
+- sf project deploy start —source-dir path/to/source —target-org basic_package
+(where "path/to/source" denotes the source metadata).
+Usage
+Create Demo Data
+
+Teh package contains Account rollup fields from the related Contact object and one Project__c related custom object:
+- NumberOfContacts__c: stores the actual number of the related Contacts ("COUNT");
+- ProjectCOUNT__c: stores the actual number of the related Project__c records ("COUNT");
+- ProjectAVG__c: stores the average value of the related Project__c records Budget__c field ("AVG");
+- ProjectMIN__c: stores the minimum value of the related Project__c records Budget__c field ("MIN");
+- ProjectMIN__c: stores the minimum value of the related Project__c records Budget__c field ("MAX");
+
+The complete setup on the demo accounts can be achieved by invoking the the following two Apex methods, in the described order:
+- DemoDataCreation.createRollupOperations() ;
+- DemoDataCreation.createAll() command from VSC or from the Anonymous Window in the Developer Console.
+
+The Account's Page Layout contains all custom rollup fields and their actual values. At this stage, the account named Fraunhofer Gesundheit has the largest number of related Projects, therefore that is the most relevan to play with.
+
