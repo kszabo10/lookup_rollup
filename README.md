@@ -21,7 +21,7 @@ After cloning the repository, define the scratch org named as "lookup_rollup" as
 
 The following command will push the metadata to the newly created scratch org:
 
-- sf project deploy start --source-dir config/project-scratch-def.json --target-org lookup_rollup
+- sf project deploy start --target-org lookup_rollup
 (where "path/to/source" denotes the source metadata).
 
 # Usage
