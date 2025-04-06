@@ -35,7 +35,8 @@ Deployment to a scratch org
 The package can be deployed by the standard sf CLI commands to a scratch org. The scratch definition file can be found at /config/project-scratch-def.json.
 
 After cloning the repository, the following can be used to create the scratch org:
-- sf org create scratch –-definition-file ./config/project-scratch-def.json –set-default –-alias basic_package
+
+- sf org create scratch --target-dev-hub MyHub --definition-file config/project-scratch-def.json --set-default --duration-days 3
 
 The following command wish push the metadata to the newly created scratch org:
 - sf project deploy start —source-dir path/to/source —target-org basic_package

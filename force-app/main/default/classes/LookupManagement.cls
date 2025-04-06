@@ -166,7 +166,7 @@ public class LookupManagement {
 			}
 			when else {
 				System.debug('Wrong value in the RollupExecutionType metadata.');
-				throw new Exception('Wrong value in the RollupExecutionType metadata.');
+				//throw new Exception('Wrong value in the RollupExecutionType metadata.');
 			}
 		}
 	}

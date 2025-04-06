@@ -11,9 +11,6 @@
 @isTest
 public class ContactTriggerHandlerTest {
 
-    static String internalRTId = Schema.SObjectType.Contact.getRecordTypeInfosByName().get('Internal').getRecordTypeId();
-    static String externalRTId = Schema.SObjectType.Contact.getRecordTypeInfosByName().get('External').getRecordTypeId();
-
     @TestSetup
     static void setup(){
         DemoDataCreation.createRollupOperations();
@@ -33,8 +30,7 @@ public class ContactTriggerHandlerTest {
             FirstName = 'Abigail',
             LastName = 'Test',
             Email = 'abigail.test@officialfirm.com.invalid',
-            AccountId = acct.Id,
-            RecordTypeId = externalRTId
+            AccountId = acct.Id
         );
         insert cnt;
         Test.stopTest();
@@ -61,8 +57,7 @@ public class ContactTriggerHandlerTest {
             FirstName = 'Abigail',
             LastName = 'Test',
             Email = 'abigail.test@officialfirm.com.invalid',
-            AccountId = acct.Id,
-            RecordTypeId = externalRTId        
+            AccountId = acct.Id
         );
         insert cnt;
         cnt.FirstName = 'AbigailNew';
@@ -90,8 +85,7 @@ public class ContactTriggerHandlerTest {
             FirstName = 'Abigail',
             LastName = 'Test',
             Email = 'abigail.test@officialfirm.com.invalid',
-            AccountId = acct.Id,
-            RecordTypeId = externalRTId
+            AccountId = acct.Id
 
         );
         insert cnt;
