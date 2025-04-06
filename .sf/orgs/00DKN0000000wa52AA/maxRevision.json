@@ -1,6 +1,6 @@
 {
     "fileVersion": 0,
-    "serverMaxRevisionCounter": 109,
+    "serverMaxRevisionCounter": 124,
     "sourceMembers": {
         "CustomField__Contact.ExternalId__c": {
             "memberType": "CustomField",
@@ -22,7 +22,7 @@
         },
         "PermissionSet__lookup_rollup_Permissions": {
             "memberType": "PermissionSet",
-            "serverRevisionCounter": 16,
+            "serverRevisionCounter": 120,
             "lastRetrievedFromServer": 16,
             "isNameObsolete": false
         },
@@ -88,7 +88,7 @@
         },
         "Profile__Admin": {
             "memberType": "Profile",
-            "serverRevisionCounter": 79,
+            "serverRevisionCounter": 122,
             "lastRetrievedFromServer": 79,
             "isNameObsolete": false
         },
@@ -124,8 +124,8 @@
         },
         "ApexClass__DemoDataCreation": {
             "memberType": "ApexClass",
-            "serverRevisionCounter": 92,
-            "lastRetrievedFromServer": 92,
+            "serverRevisionCounter": 123,
+            "lastRetrievedFromServer": 123,
             "isNameObsolete": false
         },
         "ApexClass__DemoDataCreationException": {
@@ -210,6 +210,36 @@
             "memberType": "CustomMetadata",
             "serverRevisionCounter": 89,
             "lastRetrievedFromServer": 89,
+            "isNameObsolete": false
+        },
+        "StaticResource__AccountTestData": {
+            "memberType": "StaticResource",
+            "serverRevisionCounter": 115,
+            "lastRetrievedFromServer": 115,
+            "isNameObsolete": false
+        },
+        "StaticResource__ContactTestData": {
+            "memberType": "StaticResource",
+            "serverRevisionCounter": 124,
+            "lastRetrievedFromServer": 124,
+            "isNameObsolete": false
+        },
+        "CustomField__Account.ExternalId__c": {
+            "memberType": "CustomField",
+            "serverRevisionCounter": 112,
+            "lastRetrievedFromServer": null,
+            "isNameObsolete": false
+        },
+        "CustomIndex__Account.ExternalId__c": {
+            "memberType": "CustomIndex",
+            "serverRevisionCounter": 113,
+            "lastRetrievedFromServer": null,
+            "isNameObsolete": false
+        },
+        "StaticResource__RollupOperationTestData": {
+            "memberType": "StaticResource",
+            "serverRevisionCounter": 121,
+            "lastRetrievedFromServer": 121,
             "isNameObsolete": false
         }
     }

@@ -1,0 +1,40 @@
+{
+	"records" :[
+	{	
+		"attributes": {
+			"type": "Contact"
+		},
+		"account": {
+			"ExternalId__c":"Alfa"
+		},		
+		"Salutation" : "Mr.",
+		"FirstName":"Kevin",
+		"LastName":"AlfaAccount",
+		"Email":"kevin.alfaaccount@alfaaccount.com"
+	},	
+	{	
+		"attributes": {
+			"type": "Contact"
+		},
+		"account": {
+			"ExternalId__c":"Alfa"
+		},		
+		"Salutation" : "Mr.",
+		"FirstName":"Thomas",
+		"LastName":"AlfaAccount",
+		"Email":"thomas.alfaaccount@alfaaccount.com"
+	},
+	{	
+		"attributes": {
+			"type": "Contact"
+		},
+		"account": {
+			"ExternalId__c":"Beta"
+		},		
+		"Salutation" : "Ms.",
+		"FirstName":"Karen",
+		"LastName":"BetaAccount",
+		"Email":"karen.betaaccount@betaaccpount.com"
+	}	
+	]
+}

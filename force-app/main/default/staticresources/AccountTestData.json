@@ -1,0 +1,18 @@
+{
+    "records" :[
+    {
+        "attributes": {
+            "type": "Account"
+        },
+        "Name" : "Test Account Alfa",
+        "ExternalId__c":"Alfa"
+    },  
+    {
+        "attributes": {
+            "type": "Account"
+        },
+        "Name" : "Test Account Beta",
+        "ExternalId__c":"Beta"
+    }    
+    ]
+}

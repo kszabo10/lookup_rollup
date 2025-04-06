@@ -1,0 +1,17 @@
+{
+    "records" :[
+    {
+        "attributes": {
+            "type": "RollupOperation__c"
+        },
+        "Name" : "Account with Contact COUNT",
+        "ChildObjectAPI__c": "Contact",
+        "ChildFieldAPI__c": "Name",
+        "LookupFieldAPI__c": "AccountId",
+        "ParentObjectAPI__c": "Account",
+        "ParentRollupFieldAPI__c": "NumberOfContacts__c",
+        "Operation__c": "COUNT",
+        "IsActive__c" : "true"
+        }
+    ]
+}

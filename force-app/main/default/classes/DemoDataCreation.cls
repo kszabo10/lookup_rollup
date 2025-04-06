@@ -18,21 +18,25 @@ public with sharing class DemoDataCreation {
 	/* ALL_CREATE_OBJECTS
 		'Account',
 		'Contact',
+        'RollupOperation__c'
 	*/
 
 	/*	ALL_DELETE_OBJECTS
+        'RollupOperation__c',
 		'Contact',
 		'Account'
 	*/
 
 	private static final String CONFIRM_DELETE = 'DELETE-ALL-RECORDS-FROM-ORG';
 	private static final List<String> ALL_DELETE_OBJECTS = new List<String>{
-		'Contact',
-		'Account'
+        'Contact',
+		'Account',
+		'RollupOperation__c'
 	};
 
 	private static final List<String> ALL_CREATE_OBJECTS = new List<String>{
-        'Account',
+//		'RollupOperation__c',
+//        'Account',
 		'Contact'
 	};
 
